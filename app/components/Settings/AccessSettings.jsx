@@ -100,7 +100,6 @@ class ApiNode extends React.Component {
         * so we force enable activation of it even though it shows as 'down'
         *
         */
-        const isTestnet = url === testnetAPI.url || url === testnetAPI2.url;
 
         let totalNodes = settingsAPIs.WS_NODE_LIST.length - 3;
 
@@ -208,7 +207,7 @@ class ApiNode extends React.Component {
                         </p>
                     </div>
                     <div>
-                        {isTestnet && !ping ? null : (
+                        { !ping ? null : (
                             <div className="api-status">
                                 {!up ? (
                                     <span className="high">
