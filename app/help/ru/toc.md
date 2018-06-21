@@ -1,6 +1,6 @@
 #### Содержание
 
-- [DBXChain](introduction/bitshares.md)
+- [DBXChain](introduction/dbxchain.md)
 - [Кошелек](introduction/wallets.md)
 - [Резервные копии](introduction/backups.md)
 - [Блокчейн](introduction/blockchain.md)
