@@ -2,7 +2,7 @@
 
  * [Introducción](index.md)
  * [Glosario](glossary.md)
- * [DBXChain](introduction/bitshares.md)
+ * [DBXChain](introduction/dbxchain.md)
  * [Billetera](introduction/wallets.md)
  * [Backups](introduction/backups.md)
  * [Blockchain](introduction/blockchain.md)
