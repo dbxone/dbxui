@@ -521,26 +521,6 @@ class Header extends React.Component {
                 </a>
             );
         }
-        if (active.indexOf("news") !== -1) {
-            dynamicMenuItem = (
-                <a
-                    style={{flexFlow: "row"}}
-                    className={cnames({active: active.indexOf("news") !== -1})}
-                >
-                    <Icon
-                        size="1_5x"
-                        style={{position: "relative", top: 0, left: -8}}
-                        name="news"
-                        title="icons.news"
-                    />
-                    <Translate
-                        className="column-hide-small"
-                        component="span"
-                        content="news.news"
-                    />
-                </a>
-            );
-        }
         if (active.indexOf("/signedmessages") !== -1) {
             dynamicMenuItem = (
                 <a
@@ -1411,27 +1391,6 @@ class Header extends React.Component {
                                     </div>
                                     <div className="table-cell">
                                         <Translate content="header.settings" />{" "}
-                                    </div>
-                                </li>
-
-                                <li
-                                    className={cnames({
-                                        active: active.indexOf("/news") !== -1
-                                    })}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        "/news"
-                                    )}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="news"
-                                            title="icons.news"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate content="news.news" />
                                     </div>
                                 </li>
 
