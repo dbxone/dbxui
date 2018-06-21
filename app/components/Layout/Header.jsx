@@ -991,40 +991,6 @@ class Header extends React.Component {
                                     </li>
                                 ) : null}
 
-                                {!isMyAccount ? (
-                                    <li
-                                        className="divider"
-                                        onClick={this[
-                                            isContact
-                                                ? "_onRemoveContact"
-                                                : "_onAddContact"
-                                        ].bind(this)}
-                                    >
-                                        <div className="table-cell">
-                                            <Icon
-                                                size="2x"
-                                                name={`${
-                                                    isContact ? "minus" : "plus"
-                                                }-circle`}
-                                                title={
-                                                    isContact
-                                                        ? "icons.minus_circle.remove_contact"
-                                                        : "icons.plus_circle.add_contact"
-                                                }
-                                            />
-                                        </div>
-                                        <div className="table-cell">
-                                            <Translate
-                                                content={`account.${
-                                                    isContact
-                                                        ? "unfollow"
-                                                        : "follow"
-                                                }`}
-                                            />
-                                        </div>
-                                    </li>
-                                ) : null}
-
                                 <li
                                     className={cnames(
                                         {
