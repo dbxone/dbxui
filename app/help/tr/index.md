@@ -9,7 +9,7 @@ Bu yardım bölümü özet bir genel bakış sağlar ve bu uygulamanın en temel
 kavramlarını tanımlar.
 
 ## Takdim 
- * [DBXChain](introduction/bitshares.md)
+ * [DBXChain](introduction/dbxchain.md)
  * [Cüzdan](introduction/wallets.md)
  * [Yedekler](introduction/backups.md)
  * [Blokzinciri](introduction/blockchain.md)
