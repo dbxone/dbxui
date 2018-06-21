@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import Translate from "react-translate-component";
 import TranslateWithLinks from "./Utility/TranslateWithLinks";
 import {isIncognito} from "feature_detect";
-var logo = require("assets/logo-ico-blue.png");
+var logo = require("assets/dbx-logo.png");
 import SettingsActions from "actions/SettingsActions";
 import WalletUnlockActions from "actions/WalletUnlockActions";
 import ActionSheet from "react-foundation-apps/src/action-sheet";
