@@ -1,6 +1,6 @@
 Please work off the staging branch and make pull requests to that branch. The master branch will only be updated for new releases.
 
-The Bitshares UI team is supported by this [worker proposal](http://www.bitshares.foundation/workers/2017-08-bill-butler). It provides the funds needed to pay the coordinator and the bounties and the Bitshares Foundation.
+The Bitshares UI team is supported by this [worker proposal](http://www.dbxchain.foundation/workers/2017-08-bill-butler). It provides the funds needed to pay the coordinator and the bounties and the Bitshares Foundation.
 
 If you would like to get involved, we have a [Telegram chatroom](https://t.me/BitSharesDEX) where you can ask questions and get help. You may also join [BitShares on Discord](https://discord.gg/GsjQfAJ)
 
@@ -11,7 +11,7 @@ If you would like to get involved, we have a [Telegram chatroom](https://t.me/Bi
 
 ## 贡献
 
-Bitshares UI团队被这一[工作提案](https://steemit.com/bitshares/@billbutler/translated-by-zhaomu-l)支持。它提供用来支付协调者，悬赏金和DBX基金的资金。
+Bitshares UI团队被这一[工作提案](https://steemit.com/dbxchain/@billbutler/translated-by-zhaomu-l)支持。它提供用来支付协调者，悬赏金和DBX基金的资金。
 
 如果你想参与贡献，我们有一个[Telegram 聊天室](https://t.me/BitSharesDEX)，在这里你可以问问题并得到帮助。
 
