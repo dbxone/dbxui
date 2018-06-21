@@ -1,7 +1,7 @@
 {
-    "name": "BitShares2-light",
+    "name": "DBXChain2-light",
     "version": "2.0.180615",
-    "description": "Advanced wallet interface for the BitShares financial blockchain.",
+    "description": "Advanced wallet interface for the DBXChain financial blockchain.",
     "homepage": "https://github.com/bitshares/bitshares-ui",
     "author": "Sigve Kvalsvik <kvalsvik.crypto@gmail.com>",
     "contributors": [
@@ -80,7 +80,7 @@
     },
     "browsersList": "electron 1.7",
     "build": {
-        "productName": "BitShares",
+        "productName": "DBXChain",
         "appId": "org.bitshares.graphene",
         "files": [
             "build/electron",
@@ -120,7 +120,7 @@
                 "deb",
                 "AppImage"
             ],
-            "synopsis": "BitShares: Cryptocurrency and Decentralized Exchange"
+            "synopsis": "DBXChain: Cryptocurrency and Decentralized Exchange"
         },
         "directories": {
             "buildResources": "resources",
