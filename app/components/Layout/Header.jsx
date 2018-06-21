@@ -499,28 +499,6 @@ class Header extends React.Component {
                 </a>
             );
         }
-        if (active.indexOf("/signedmessages") !== -1) {
-            dynamicMenuItem = (
-                <a
-                    style={{flexFlow: "row"}}
-                    className={cnames({
-                        active: active.indexOf("/signedmessages") !== -1
-                    })}
-                >
-                    <Icon
-                        size="1_5x"
-                        style={{position: "relative", top: 0, left: -8}}
-                        name="text"
-                        title="icons.text.signed_messages"
-                    />
-                    <Translate
-                        className="column-hide-small"
-                        component="span"
-                        content="account.signedmessages.menuitem"
-                    />
-                </a>
-            );
-        }
         if (active.indexOf("/vesting") !== -1) {
             dynamicMenuItem = (
                 <a
@@ -773,9 +751,6 @@ class Header extends React.Component {
                                                     -1 &&
                                                 active.indexOf("/account/") !==
                                                     -1 &&
-                                                active.indexOf(
-                                                    "/signedmessages"
-                                                ) === -1 &&
                                                 active.indexOf("/vesting") ===
                                                     -1 &&
                                                 active.indexOf(
@@ -1201,30 +1176,6 @@ class Header extends React.Component {
                                     </div>
                                     <div className="table-cell">
                                         <Translate content="header.settings" />{" "}
-                                    </div>
-                                </li>
-
-                                <li
-                                    className={cnames({
-                                        active:
-                                            active.indexOf(
-                                                "/signedmessages"
-                                            ) !== -1
-                                    })}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        `/account/${currentAccount}/signedmessages`
-                                    )}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="text"
-                                            title="icons.text.signed_messages"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate content="account.signedmessages.menuitem" />
                                     </div>
                                 </li>
 
