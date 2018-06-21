@@ -1,6 +1,6 @@
 #### Help
 
- * [BitShares](introduction/bitshares.md)
+ * [DBXChain](introduction/bitshares.md)
  * [Wallet](introduction/wallets.md)
  * [Backups](introduction/backups.md)
  * [Blockchain](introduction/blockchain.md)
