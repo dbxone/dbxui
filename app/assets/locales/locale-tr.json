@@ -86,7 +86,7 @@
             "network_percentage": "Ağ yüzdesi",
             "referral_link": "Davet bağlantınız",
             "referral_text":
-                "Bu bağlantıyı BitShares'e davet etmek istediğiniz kişilere gönderin",
+                "Bu bağlantıyı DBXChain'e davet etmek istediğiniz kişilere gönderin",
             "referrals": "Tavsiye edenler",
             "referrer": "Tavsiye eden",
             "registrar": "Kaydı yapan",
@@ -417,7 +417,7 @@
     "app_init": {
         "browser": "Desteklenmeyen tarayıcı",
         "browser_text":
-            "Kullandığınız tarayıcı üzerinde testlerimiz devam etmektedir, bu yüzden BitShares Cüzdanını desteklemeyebilir. Cüzdanınızı yedekleyip Chrome Tarayıcısını kullanarak içeri aktarmanızı önemle tavsiye ederiz. Mesuliyet size aittir.",
+            "Kullandığınız tarayıcı üzerinde testlerimiz devam etmektedir, bu yüzden DBXChain Cüzdanını desteklemeyebilir. Cüzdanınızı yedekleyip Chrome Tarayıcısını kullanarak içeri aktarmanızı önemle tavsiye ederiz. Mesuliyet size aittir.",
         "connected": "Bağlandı",
         "connecting": "Connecting to API server: %(server)s",
         "not_connected": "Bağlı değil",
@@ -796,7 +796,7 @@
     },
     "gateway": {
         "add_funds":
-            "Quickly and easily add funds to your BitShares account <strong>%(account)s</strong>. This service is provided by Openledger.",
+            "Quickly and easily add funds to your DBXChain account <strong>%(account)s</strong>. This service is provided by Openledger.",
         "address": "Address",
         "address_with_memo":
             "%(address)s <span class=\"blocktrades-with-memo\">with memo</span> %(memo)s",
@@ -869,7 +869,7 @@
         "frozen": "The user account %(account)s was frozen",
         "gateway": "Geçit",
         "gateway_text":
-            "Geçitler BitShares'de tanımlı dijital varlıklardan gerçek enstrümanlara geçmenizi sağlar (ve tam tersi), örn. OPEN.BTC'den  BTC'ye.",
+            "Geçitler DBXChain'de tanımlı dijital varlıklardan gerçek enstrümanlara geçmenizi sağlar (ve tam tersi), örn. OPEN.BTC'den  BTC'ye.",
         "generate": "Yeni Oluştur",
         "generate_new": "Yeni adres al",
         "generate_new_memo": "Get new memo",
@@ -935,7 +935,7 @@
         "withdraw": "Çek",
         "withdraw_coin": " %(coin)s (%(symbol)s) Çekme Talebi",
         "withdraw_funds":
-            "You are going to withdraw funds from your BitShares account to your external %(asset)s account.",
+            "You are going to withdraw funds from your DBXChain account to your external %(asset)s account.",
         "withdraw_history_status": {
             "audited": "auditting completed",
             "auditing": "withdraw auditing",
@@ -1028,7 +1028,7 @@
             "borrow": "Borrow",
             "buy": "Buy"
         },
-        "download": "Download new version of BitShares UI",
+        "download": "Download new version of DBXChain UI",
         "excel": "Download .csv file",
         "eye": "Hide Node",
         "eye-striked": "Show Node",
@@ -1740,7 +1740,7 @@
         "from": "Gönderen",
         "header": "Transfer detayları",
         "header_subheader":
-            "Transfers are used for sending funds to other BitShares Account Holders",
+            "Transfers are used for sending funds to other DBXChain Account Holders",
         "memo": "Açıklama",
         "memo_unlock": "Açıklamayı görmek için cüzdan kilidini açın.",
         "optional": "Tercihe bağlı",
@@ -1792,7 +1792,7 @@
         "account_create_wallet_text":
             "Bu şifre yeni bir Bitshares cüzdanı oluşturmak için kullanılacak ve tarayıcınızda saklanacaktır. Cüzdanınızı yedeklerseniz, bu şifre ile birlikte başka bilgisayarlardan ve tarayıcılardan cüzdanınıza ulaşabilirsiniz.",
         "account_exp":
-            "This account will be created on the blockchain and will be your address for any transfers you want to make! <strong>There are no long Bitcoin-style addresses in BitShares!</strong>",
+            "This account will be created on the blockchain and will be your address for any transfers you want to make! <strong>There are no long Bitcoin-style addresses in DBXChain!</strong>",
         "account_public": "Kullanıcı adı (herkese açık)",
         "active_wallet": "Etkin Cüzdan",
         "all_set": "İşleminiz başarıyla tamamlandı!",
@@ -1884,7 +1884,7 @@
             "Lütfen yedekleme dosyasını seçin. Bu işlem esnasında dosya kendi bilgisayarınızdan dışarıya asla aktarılmaz, bütün işlem bilgisayarınızda gerçekleşir.",
         "import_balance": "Bakiyeyi aktar.",
         "import_bts": "DBX 0.9.3c anahtar aktarma",
-        "import_bts1": "BitShares 0.9.3c den aktarım",
+        "import_bts1": "DBXChain 0.9.3c den aktarım",
         "import_key_success": "İşleminiz başarıyla tamamlandı!",
         "import_keys": "İçeri Anahtar Aktar",
         "import_keys_tool": "Anahtar Aktarım Aracı",
