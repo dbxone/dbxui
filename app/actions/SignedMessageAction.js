@@ -4,10 +4,10 @@ import {Signature, ChainStore, PublicKey} from "bitsharesjs/es";
 import WalletUnlockActions from "actions/WalletUnlockActions";
 import WalletDb from "stores/WalletDb";
 
-const MSG_HEAD = "-----BEGIN BITSHARES SIGNED MESSAGE-----";
+const MSG_HEAD = "-----BEGIN DBXUI SIGNED MESSAGE-----";
 const MSG_META = "-----BEGIN META-----";
 const MSG_SIGNATURE = "-----BEGIN SIGNATURE-----";
-const MSG_FOOT = "-----END BITSHARES SIGNED MESSAGE-----";
+const MSG_FOOT = "-----END DBXUI SIGNED MESSAGE-----";
 const MSG_SENDER = "account";
 const MSG_PUBLICKEY = "memokey";
 const MSG_BLOCK = "block";
@@ -18,7 +18,7 @@ const MSG_DATE = "timestamp";
  *    - Verify a given message
  *
  *  The message format that is underlying is as follows:
- *  -----BEGIN BITSHARES SIGNED MESSAGE-----
+ *  -----BEGIN DBXUI SIGNED MESSAGE-----
  *  <message from the account>
  *  -----BEGIN META-----
  *  account=<account name>
@@ -27,7 +27,7 @@ const MSG_DATE = "timestamp";
  *  timestamp=<current time>
  *  -----BEGIN SIGNATURE-----
  *  <signature>
- *  -----END BITSHARES SIGNED MESSAGE-----
+ *  -----END DBXUI SIGNED MESSAGE-----
  *
  *    @author Stefan Schiessl <stefan.schiessl@blockchainprojectsbv.com>
  */
