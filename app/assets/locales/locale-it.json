@@ -58,12 +58,12 @@
             "Questo è il valore stimato di %(asset)s che hai in ordini correntemente aperti.",
         "intro_text_1": "Il tuo Exchange decentralizzato",
         "intro_text_2":
-            "<b>Il DEX</b> è inerentemente decentralizzato, permettendoti la compravendita del token BitShares (BTS) e una varietà di asset trustless stabili nel prezzo e ancorati al mercato come bitUSD, bitCNY, bitBTC, bitGold e altri. È possibile fare trading di questi asset con <b>zero</b> rischio di controparte, permettendoti di mantenere il pieno controllo sui tuoi fondi.",
+            "<b>Il DEX</b> è inerentemente decentralizzato, permettendoti la compravendita del token DBXChain (BTS) e una varietà di asset trustless stabili nel prezzo e ancorati al mercato come bitUSD, bitCNY, bitBTC, bitGold e altri. È possibile fare trading di questi asset con <b>zero</b> rischio di controparte, permettendoti di mantenere il pieno controllo sui tuoi fondi.",
         "intro_text_3":
             "<b>Il DEX</b> permette anche la creazione di asset generati dagli utenti (user-issued assets, UIA), con cui si può fare trading con altri UIA o altri asset trustless sulla piattaforma.  Un distributore molto noto sul DEX è <b>OpenLedger</b>, che offre una gamma di asset che include BTC, ETH, STEEM, DASH, LTC, DOGE e molti altri",
         "intro_text_4":
             "Ciò garantisce ai trader di criptovalute un unico mix di trading tradizionale e decentralizzato, il tutto con la familiare interfaccia di un exchange. Buon trading!",
-        "intro_text_title": "Benvenuto su BitShares",
+        "intro_text_title": "Benvenuto su DBXChain",
         "login_with": "Login with",
         "market_actions": "Operazioni di mercato",
         "market_value": "Valore di mercato",
@@ -87,7 +87,7 @@
             "network_percentage": "Rete",
             "referral_link": "Il tuo referral link",
             "referral_text":
-                "Comunica questo link alle persone a cui vuoi segnalare BitShares",
+                "Comunica questo link alle persone a cui vuoi segnalare DBXChain",
             "referrals": "Referral",
             "referrer": "Affiliate Referrer",
             "registrar": "Registrar",
@@ -399,7 +399,7 @@
             "workers_short": "Worker"
         },
         "voting": "Voti",
-        "welcome": "Benvenuto su BitShares",
+        "welcome": "Benvenuto su DBXChain",
         "whitelist": {
             "add": "Aggiungi alla whitelist",
             "add_black": "Aggiungi alla blacklist",
@@ -421,7 +421,7 @@
     "app_init": {
         "browser": "Browser non supportato",
         "browser_text":
-            "Il browser che stai usando non è stato pienamente testato per il supporto del portafoglio BitShares. Raccomandiamo caldamente di fare il backup del tuo portafoglio e importarlo usando il browser Chrome finché non avremo avuto il tempo di testare appieno il tuo browser. Usalo a tuo rischio.",
+            "Il browser che stai usando non è stato pienamente testato per il supporto del portafoglio DBXChain. Raccomandiamo caldamente di fare il backup del tuo portafoglio e importarlo usando il browser Chrome finché non avremo avuto il tempo di testare appieno il tuo browser. Usalo a tuo rischio.",
         "connected": "Connesso",
         "connecting": "Connecting to API server: %(server)s",
         "not_connected": "Non connesso",
@@ -794,13 +794,13 @@
         "loading": "Caricamento...",
         "nosync": "La blockchain non è sincronizzata, per favore attendi..",
         "synced": "Sincronizzato",
-        "title": "BitShares",
+        "title": "DBXChain",
         "unsynced": "Fuori sincrono",
         "update_available": "AGGIORNAMENTO DISPONIBILE"
     },
     "gateway": {
         "add_funds":
-            "Aggiungi fondi rapidamente e facilmente al tuo account BitShares <strong>%(account)s</strong>. Questo servizio è fornito da Openledger.",
+            "Aggiungi fondi rapidamente e facilmente al tuo account DBXChain <strong>%(account)s</strong>. Questo servizio è fornito da Openledger.",
         "address": "Address",
         "address_with_memo":
             "%(address)s <span class=\"blocktrades-with-memo\">con memo</span> %(memo)s",
@@ -941,7 +941,7 @@
         "withdraw": "Prelievo",
         "withdraw_coin": "Preleva %(coin)s (%(symbol)s)",
         "withdraw_funds":
-            "Stai per ritirare fondi dal tuo account BitShares verso il tuo conto %(asset)s esterno.",
+            "Stai per ritirare fondi dal tuo account DBXChain verso il tuo conto %(asset)s esterno.",
         "withdraw_history_status": {
             "audited": "auditting completed",
             "auditing": "withdraw auditing",
@@ -989,7 +989,7 @@
         "payments_beta": "Send (Beta)",
         "payments_legacy": "Send (legacy)",
         "settings": "Impostazioni",
-        "title": "BitShares UI",
+        "title": "DBXChain UI",
         "unlock": "Log in (sblocca il portafoglio)",
         "unlock_password": "Log in usando una password",
         "unlock_short": "Login",
@@ -1037,7 +1037,7 @@
             "borrow": "Borrow",
             "buy": "Buy"
         },
-        "download": "Download new version of BitShares UI",
+        "download": "Download new version of DBXChain UI",
         "excel": "Download .csv file",
         "eye": "Hide Node",
         "eye-striked": "Show Node",
@@ -1539,7 +1539,7 @@
         "hide_asset": "Clicca qui per nascondere quest'asset da questa lista.",
         "latest_price": "Questo è l'ultimo prezzo visto in questo mercato.",
         "login":
-            "Questo portafoglio BitShares non offre un login tradizionale, invece semplicemente blocca o sblocca un portafoglio che è <b>solo</b> memorizzato localmente nel tuo browser.<br/><br/>Ogni volta che chiudi il portafoglio, esso sarà bloccato e avrai di fatto effettuato il logout.",
+            "Questo portafoglio DBXChain non offre un login tradizionale, invece semplicemente blocca o sblocca un portafoglio che è <b>solo</b> memorizzato localmente nel tuo browser.<br/><br/>Ogni volta che chiudi il portafoglio, esso sarà bloccato e avrai di fatto effettuato il logout.",
         "margin_price":
             "Questo è il prezzo massimo che una posizione con margine può essere tenuta a pagare in caso di chiamata. È anche detto Squeeze Price.",
         "market_fee":
@@ -1760,7 +1760,7 @@
         "from": "Da",
         "header": "Dettagli trasferimento",
         "header_subheader":
-            "Transfers are used for sending funds to other BitShares Account Holders",
+            "Transfers are used for sending funds to other DBXChain Account Holders",
         "memo": "Memo / Messaggio",
         "memo_unlock":
             "Sblocca il tuo portafoglio per visualizzare questo memo",
@@ -1814,9 +1814,9 @@
     "wallet": {
         "accept": "Accetta",
         "account_create_wallet_text":
-            "Questa password sarà utilizzata per creare un nuovo portafoglio BitShares, che sarà solo memorizzato localmente nel tuo browser. Un portafoglio BitShares può contenere diversi account e può essere trasferito facilmente tra browser e computer diversi usando un file di backup.",
+            "Questa password sarà utilizzata per creare un nuovo portafoglio DBXChain, che sarà solo memorizzato localmente nel tuo browser. Un portafoglio DBXChain può contenere diversi account e può essere trasferito facilmente tra browser e computer diversi usando un file di backup.",
         "account_exp":
-            "Questo account sarà creato nella blockchain e sarà il tuo indirizzo per ogni trasferimento tu voglia effettuare! <strong>Non ci sono lunghi indirizzi stile Bitcoin su BitShares!</strong>",
+            "Questo account sarà creato nella blockchain e sarà il tuo indirizzo per ogni trasferimento tu voglia effettuare! <strong>Non ci sono lunghi indirizzi stile Bitcoin su DBXChain!</strong>",
         "account_public": "Nome account (Pubblico)",
         "active_wallet": "Portafoglio attivo",
         "all_set": "Tutto fatto!",
@@ -1851,7 +1851,7 @@
         "brainkey_w3": "accesso ai fondi in questo portafoglio.",
         "bts_09_export": "File di esportazione chiavi BTS 0.9.3c (.json)",
         "bts_rules":
-            "La prima regola di BitShares è: Non perdere la tua password.<br/>La seconda regola di BitShares è: Non perdere la tua password.<br />La terza regola di BitShares è: Non possiamo recuperare la tua password.<br />La quarta regola: Se puoi ricordare la tua password, allora non è sicura.<br />La quinta regola: Usa solo password generate a caso.<br />La sesta regola: Non dire a nessuno la tua password.<br />La settima regola: Fai sempre il backup della tua password.",
+            "La prima regola di DBXChain è: Non perdere la tua password.<br/>La seconda regola di DBXChain è: Non perdere la tua password.<br />La terza regola di DBXChain è: Non possiamo recuperare la tua password.<br />La quarta regola: Se puoi ricordare la tua password, allora non è sicura.<br />La quinta regola: Usa solo password generate a caso.<br />La sesta regola: Non dire a nessuno la tua password.<br />La settima regola: Fai sempre il backup della tua password.",
         "cancel": "Annulla",
         "change": "Cambia a %(name)s",
         "change_backup":
@@ -1881,7 +1881,7 @@
         "create_password": "Crea un nuovo account usando una password",
         "create_success": "Il tuo portafoglio è stato creato",
         "create_text":
-            "Il portafoglio BitShares è memorizzato nel tuo browser, non nel cloud. Un portafoglio può contenere diversi account e può essere trasferito facilmente tra browser e computer diversi usando un file di backup.",
+            "Il portafoglio DBXChain è memorizzato nel tuo browser, non nel cloud. Un portafoglio può contenere diversi account e può essere trasferito facilmente tra browser e computer diversi usando un file di backup.",
         "create_w_a": "Crea un portafoglio e un account",
         "create_wallet": "Crea nuovo portafoglio",
         "create_wallet_backup": "Crea nuovo portafoglio da un backup",
@@ -1906,15 +1906,15 @@
         "generated": "Password generata",
         "go_get_started": "Vedi i suggerimenti per iniziare",
         "has_wallet":
-            "Quando crei il tuo primo account BitShares, un portafoglio BitShares viene creato automaticamente e memorizzato nel tuo browser. Questo portafoglio è crittografato con la tua password, e contiene tutte le chiavi private che appartengono al tuo account. È molto importante che dedichi il tempo necessario per creare un backup di questo portafoglio, dopo la creazione!",
+            "Quando crei il tuo primo account DBXChain, un portafoglio DBXChain viene creato automaticamente e memorizzato nel tuo browser. Questo portafoglio è crittografato con la tua password, e contiene tutte le chiavi private che appartengono al tuo account. È molto importante che dedichi il tempo necessario per creare un backup di questo portafoglio, dopo la creazione!",
         "import_20_notice1": "Importa prima il tuo BACKUP BTS 2.0+",
         "import_20_notice2": "(se ne hai uno)",
-        "import_backup": "Importa backup BitShares 2.0 (file .bin)",
+        "import_backup": "Importa backup DBXChain 2.0 (file .bin)",
         "import_backup_choose":
             "Seleziona il tuo file di backup nella finestra di dialogo sotto. Farlo è sicuro perché il file non è mai caricato online e non lascia il tuo browser.",
         "import_balance": "Importa saldo/i",
         "import_bts": "Importa un'esportazione chiavi BTS 0.9.3c",
-        "import_bts1": "Importa da BitShares 0.9.3c",
+        "import_bts1": "Importa da DBXChain 0.9.3c",
         "import_key_success": "%(count)s chiavi importate con successo.",
         "import_keys": "Importa chiavi",
         "import_keys_tool": "Strumento di importazione delle chiavi",
@@ -2037,7 +2037,7 @@
             "<li>Account multipli</li><li>Necessario file di backup del portafoglio</li><li>Alta sicurezza</li>",
         "wallet_move":
             "Questo file di backup può anche essere usato per spostare il tuo portafoglio su un altro computer o un altro browser. Per recuperare il tuo portafoglio usando questo backup <strong>avrai anche bisogno della password!</strong>",
-        "wallet_new": "Nuovo account BitShares",
+        "wallet_new": "Nuovo account DBXChain",
         "wallet_password": "Fai il login dovunque usando la tua password"
     },
     "winex": {
