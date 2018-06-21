@@ -3,7 +3,7 @@ Translating Graphene
 
 ## Continuous localization
 
-* **Graphene's GUI** repository is bridged with [**Transifex translation platform**](https://www.transifex.com/bitshares) for continuous localization.
+* **Graphene's GUI** repository is bridged with [**Transifex translation platform**](https://www.transifex.com/dbxchain) for continuous localization.
 
 * Source language files are updated in real time when text is added or modified in Graphene's repository. 
 Tanslators can choose to be notified on changes.
@@ -13,7 +13,7 @@ it is automatically pushed to an intermediate repository where the code's syntax
 
 * When all resources for a given language are translated and reviewed they are pushed to the main repository, to be included in the next release.
 
-* **You can join the translation team** by requesting resources and language in which you want to participate at **https://transifex.com/bitshares**.
+* **You can join the translation team** by requesting resources and language in which you want to participate at **https://transifex.com/dbxchain**.
 You can create an account for free or simply log in with your Github or Gmail account.
 
 * [**Using the Transifex Web Editor is easy**](http://docs.transifex.com/tutorials/txeditor/) 
@@ -26,7 +26,7 @@ You can create an account for free or simply log in with your Github or Gmail ac
 
 ### Graphene User Interfase, main strings
 
-**https://www.transifex.com/bitshares/graphene-ui**
+**https://www.transifex.com/dbxchain/graphene-ui**
 
 #### **Two simple rules:**
 
@@ -39,7 +39,7 @@ You can create an account for free or simply log in with your Github or Gmail ac
 
 ### Help content files
 
-**https://www.transifex.com/bitshares/graphene-ui-help**
+**https://www.transifex.com/dbxchain/graphene-ui-help**
 
 * These are Github markdown pages. This approach makes translated content highly portable, ready to use on many other  interfaces and websites.
 
