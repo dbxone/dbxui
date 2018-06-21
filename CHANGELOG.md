@@ -22,7 +22,7 @@ Bug fixes and improvements
 - #1560: Enable develop branch with automatic builds
 - #1569: Use unique memo keys when creating new accounts
 - Fix #1568: AssetName crash on non-existing asset
-- #1580 Integrate bitshares-ui-style-guide
+- #1580 Integrate dbxchain-ui-style-guide
 - #1525 - Clear Voting Proxy
 - #1555 - Market Picker fixes for improvements
 
@@ -31,7 +31,7 @@ Release 2.0.180525
 ---------------------------------------------------------------------
 New features
 --------
-- Push new staging builds to https://staging.bitshares.org using Travis
+- Push new staging builds to https://staging.dbxchain.org using Travis
 - #905: Replace react-stockcharts with TradingView charts
 - #1512: Add QR scanner on withdraw (beta)
 - #1448: Display walkthrough when user opens exchange for the first time
@@ -68,7 +68,7 @@ New features
 - #1379: Add Market Picker
 - #1276: Enable GDEX gateway
 - #1463: Handle non-existant assets in exchange and asset pages
-- Update bitsharesjs to enable new orders api
+- Update dbxchainjs to enable new orders api
 - #1288 - Extract FundFeePool from AccountAssetUpdate and use it in Asset
 - Added titles to all areas of the app to improve history navigation
 
@@ -190,7 +190,7 @@ Bug fixes and improvements
 - #984: Enable header menu items for all accounts
 - Fix #1272: Workaround for routerTransition being called multiple times
 - Fix #1281 and other references to bit assets
-- Update bitsharesjs for better handling of incoming proposed transactions
+- Update dbxchainjs for better handling of incoming proposed transactions
 - #1243: Translation fixes
 - Fix broken asset/gateway logic
 - #1278: Tab subtext disappears when collapsed
@@ -363,7 +363,7 @@ New features
 - Rename Openledger Dark theme to Midnight
 - #452 private feed producers
 - #699: Add News section with content from Steemit
-- Add RPC Node wss://us-ny.bitshares.apasia.tech/ws (#817)
+- Add RPC Node wss://us-ny.dbxchain.apasia.tech/ws (#817)
 - Add API node: wss://dex.rnglab.org (#810)
 - Show pricechart grid
 
@@ -424,7 +424,7 @@ Release 2.0.171101
 ---------------------------------------------------------------------
 New features
 --------
-- #634 The hosted wallet is now available at wallet.bitshares.org
+- #634 The hosted wallet is now available at wallet.dbxchain.org
 - #530 Withdraw amounts now factor in the gate fee
 - #538 The voting page has been completely revamped
 - #579 The margin position tab now includes a set of default assets
@@ -541,7 +541,7 @@ Bug fixes
 - Fix MyMarkets console errors
 - Fix 'span cannot appear as child of tbody' error
 - Fix warning in header (td in a) (#338)
-- Update bitsharesjs, #346, fix #304
+- Update dbxchainjs, #346, fix #304
 - Update apiLatencies after connection
 - Fix API nodes sorting #346
 
@@ -593,7 +593,7 @@ Bug fixes
 - Change positioning of some tooltips
 - Fix password score checker freezing on very long passwords
 - Hide 'something for nothing order history items
-- Update bitsharesjs to fix proposals array undefined error
+- Update dbxchainjs to fix proposals array undefined error
 - Fix 'Cannot use 'in' operator to search for 'translate'' error in api dropdown
 - Fix order rounding when modifying the 'Total' after clicking an order from the orderbook
 - Improve first-time brainkey lookup to check at least 10 positions
@@ -750,7 +750,7 @@ Bug fixes
 - Scroll orderbook to top when changing markets
 - Don't set feed price in MarketStore for markets without call orders
 - Fix setting of highestBid in MarketStore
-- Update bitsharesjs, fixes vesting balances not loading properly
+- Update dbxchainjs, fixes vesting balances not loading properly
 - Fix persistence of indicator settings
 - Fix PriceChart resize on switching to/from left orderbook
 - Update Dashboard markets, add loading indication until accounts are ready
@@ -813,7 +813,7 @@ Bug fixes
 - Fix market flipping for UIAs
 - Fix several bugs related to hash-history react router config
 - Change Graphene to BitShares
-- Replace graphenejs-lib with bitsharesjs
+- Replace graphenejs-lib with dbxchainjs
 - Fix npm errors
 - Fix line breaks for memos with very long words
 - Make sure asset actions render properly in AccountOverview
