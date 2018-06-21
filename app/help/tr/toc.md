@@ -2,7 +2,7 @@
 
  * [ Giriş ](index.md)
  * [Terimler Listesi](glossary.md)
- * [DBXChain](introduction/bitshares.md)
+ * [DBXChain](introduction/dbxchain.md)
  * [Cüzdan](introduction/wallets.md)
  * [Yedeklemeler](introduction/backups.md)
  * [Blokzinciri](introduction/blockchain.md)
