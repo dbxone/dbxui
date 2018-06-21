@@ -39,12 +39,6 @@ class Explorer extends React.Component {
                     content: Witnesses
                 },
                 {
-                    name: "committee_members",
-                    link: "/explorer/committee-members",
-                    translate: "explorer.committee_members.title",
-                    content: CommitteeMembers
-                },
-                {
                     name: "markets",
                     link: "/explorer/markets",
                     translate: "markets.title",
