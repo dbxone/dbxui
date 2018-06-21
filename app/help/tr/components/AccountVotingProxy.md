@@ -1,1 +1,1 @@
-Bir vekil adınıza oy kullanımını yönetir. DBXChain forumunda vekil olarak görev almaya gnüllü kişileri bulabilirsiniz  [DBXChaintalk](https://bitsharestalk.org/index.php/board,75.0.html). 
+Bir vekil adınıza oy kullanımını yönetir. DBXChain forumunda vekil olarak görev almaya gnüllü kişileri bulabilirsiniz  [DBXChaintalk](https://dbxchaintalk.org/index.php/board,75.0.html). 
