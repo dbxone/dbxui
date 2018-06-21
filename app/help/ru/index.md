@@ -6,7 +6,7 @@ DBXChain 2.0 - это платформа Финансовых Смарт-Кон�
 
 ## Введение
 
-- [DBXChain](introduction/bitshares.md)
+- [DBXChain](introduction/dbxchain.md)
 - [Кошелек](introduction/wallets.md)
 - [Резервные копии](introduction/backups.md)
 - [Блокчейн](introduction/blockchain.md)
