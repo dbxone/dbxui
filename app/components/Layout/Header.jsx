@@ -541,53 +541,6 @@ class Header extends React.Component {
                 </a>
             );
         }
-        if (active.indexOf("/voting") !== -1) {
-            dynamicMenuItem = (
-                <a
-                    style={{flexFlow: "row"}}
-                    className={cnames({
-                        active: active.indexOf("/voting") !== -1
-                    })}
-                >
-                    <Icon
-                        size="1_5x"
-                        style={{position: "relative", top: 0, left: -8}}
-                        name="thumbs-up"
-                        title="icons.thumbs_up"
-                    />
-                    <Translate
-                        className="column-hide-small"
-                        component="span"
-                        content="account.voting"
-                    />
-                </a>
-            );
-        }
-        if (
-            active.indexOf("/assets") !== -1 &&
-            active.indexOf("explorer") === -1
-        ) {
-            dynamicMenuItem = (
-                <a
-                    style={{flexFlow: "row"}}
-                    className={cnames({
-                        active: active.indexOf("/assets") !== -1
-                    })}
-                >
-                    <Icon
-                        size="1_5x"
-                        style={{position: "relative", top: 0, left: -8}}
-                        name="assets"
-                        title="icons.assets"
-                    />
-                    <Translate
-                        className="column-hide-small"
-                        component="span"
-                        content="explorer.assets.title"
-                    />
-                </a>
-            );
-        }
         if (active.indexOf("/signedmessages") !== -1) {
             dynamicMenuItem = (
                 <a
@@ -905,10 +858,6 @@ class Header extends React.Component {
                                                 active.indexOf("account/") !==
                                                     -1 &&
                                                 active.indexOf("/account/") !==
-                                                    -1 &&
-                                                active.indexOf("/assets") ===
-                                                    -1 &&
-                                                active.indexOf("/voting") ===
                                                     -1 &&
                                                 active.indexOf(
                                                     "/signedmessages"
@@ -1485,49 +1434,7 @@ class Header extends React.Component {
                                         <Translate content="news.news" />
                                     </div>
                                 </li>
-                                <li
-                                    className={cnames({
-                                        active: active.indexOf("/voting") !== -1
-                                    })}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        `/account/${currentAccount}/voting`
-                                    )}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="thumbs-up"
-                                            title="icons.thumbs_up"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate content="account.voting" />
-                                    </div>
-                                </li>
 
-                                <li
-                                    className={cnames({
-                                        active:
-                                            active.indexOf("/assets") !== -1 &&
-                                            active.indexOf("/account/") !== -1
-                                    })}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        `/account/${currentAccount}/assets`
-                                    )}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="assets"
-                                            title="icons.assets"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate content="explorer.assets.title" />
-                                    </div>
-                                </li>
                                 <li
                                     className={cnames({
                                         active:
