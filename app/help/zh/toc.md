@@ -2,7 +2,7 @@
 
  * [介绍](index.md)
  * [词汇表](glossary.md)
- * [DBXChainDBX](introduction/bitshares.md)
+ * [DBXChainDBX](introduction/dbxchain.md)
  * [钱包](introduction/wallets.md)
  * [备份](introduction/backups.md)
  * [区块链](introduction/blockchain.md)
