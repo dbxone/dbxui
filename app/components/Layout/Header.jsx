@@ -521,28 +521,6 @@ class Header extends React.Component {
                 </a>
             );
         }
-        if (active.indexOf("/permissions") !== -1) {
-            dynamicMenuItem = (
-                <a
-                    style={{flexFlow: "row"}}
-                    className={cnames({
-                        active: active.indexOf("/permissions") !== -1
-                    })}
-                >
-                    <Icon
-                        size="1_5x"
-                        style={{position: "relative", top: 0, left: -8}}
-                        name="warning"
-                        title="icons.warning"
-                    />
-                    <Translate
-                        className="column-hide-small"
-                        component="span"
-                        content="account.permissions"
-                    />
-                </a>
-            );
-        }
 
         const submenus = {
             [SUBMENUS.SETTINGS]: (
@@ -752,10 +730,7 @@ class Header extends React.Component {
                                                 active.indexOf("/account/") !==
                                                     -1 &&
                                                 active.indexOf("/vesting") ===
-                                                    -1 &&
-                                                active.indexOf(
-                                                    "/permissions"
-                                                ) === -1
+                                                    -1
                                         })}
                                     >
                                         <Icon
@@ -1203,29 +1178,6 @@ class Header extends React.Component {
                                         </div>
                                     </li>
                                 ) : null}
-
-                                <li
-                                    className={cnames("divider", {
-                                        active:
-                                            active.indexOf("/permissions") !==
-                                            -1
-                                    })}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        `/account/${currentAccount}/permissions`
-                                    )}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="warning"
-                                            title="icons.warning"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate content="account.permissions" />
-                                    </div>
-                                </li>
 
                                 {!hasLocalWallet && (
                                     <li
