@@ -587,28 +587,6 @@ class Header extends React.Component {
                 </a>
             );
         }
-        if (active.indexOf("/whitelist") !== -1) {
-            dynamicMenuItem = (
-                <a
-                    style={{flexFlow: "row"}}
-                    className={cnames({
-                        active: active.indexOf("/whitelist") !== -1
-                    })}
-                >
-                    <Icon
-                        size="1_5x"
-                        style={{position: "relative", top: 0, left: -8}}
-                        name="list"
-                        title="icons.list"
-                    />
-                    <Translate
-                        className="column-hide-small"
-                        component="span"
-                        content="account.whitelist.title"
-                    />
-                </a>
-            );
-        }
         if (active.indexOf("/permissions") !== -1) {
             dynamicMenuItem = (
                 <a
@@ -846,8 +824,6 @@ class Header extends React.Component {
                                                     "/member-stats"
                                                 ) === -1 &&
                                                 active.indexOf("/vesting") ===
-                                                    -1 &&
-                                                active.indexOf("/whitelist") ===
                                                     -1 &&
                                                 active.indexOf(
                                                     "/permissions"
@@ -1465,28 +1441,6 @@ class Header extends React.Component {
                                         </div>
                                     </li>
                                 ) : null}
-
-                                <li
-                                    className={cnames({
-                                        active:
-                                            active.indexOf("/whitelist") !== -1
-                                    })}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        `/account/${currentAccount}/whitelist`
-                                    )}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="list"
-                                            title="icons.list"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate content="account.whitelist.title" />
-                                    </div>
-                                </li>
 
                                 <li
                                     className={cnames("divider", {
