@@ -9,7 +9,7 @@ This help section gives a brief overview and describes the most basic concepts
 of this application.
 
 ## Introduction 
- * [DBXChain](introduction/bitshares.md)
+ * [DBXChain](introduction/dbxchain.md)
  * [Wallet](introduction/wallets.md)
  * [Backups](introduction/backups.md)
  * [Blockchain](introduction/blockchain.md)
