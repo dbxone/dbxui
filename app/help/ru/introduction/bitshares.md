@@ -16,8 +16,8 @@
 
 Если вы являетесь разработчиком программного обеспечения, то можете поучаствовать в баунти-программе здесь:
 
-- [Github UI](https://github.com/bitshares/bitshares-ui)
-- [Github Core](https://github.com/bitshares/bitshares-core) 
+- [Github UI](https://github.com/dbxchain/dbxchain-ui)
+- [Github Core](https://github.com/dbxchain/dbxchain-core) 
 
 ## Введение
 
