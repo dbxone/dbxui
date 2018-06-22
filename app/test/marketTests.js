@@ -679,7 +679,7 @@ describe("LimitOrderCreate", function() {
     it("Can be converted to object", function() {
         let order = new LimitOrderCreate({
             to_receive: USD,
-            for_sale: BTS
+            for_sale: DBX
         });
         let obj = order.toObject();
         assert.equal(Object.keys(obj).length, 6, "Object should have 6 keys");
