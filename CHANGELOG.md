@@ -1102,7 +1102,7 @@ Release 2.0.160420
 
 New features
 --------
-- Allow fees for order cancellation and shorting to be paid in assets other than BTS
+- Allow fees for order cancellation and shorting to be paid in assets other than DBX
 - Enable OPEN.STEEM deposits and withdrawals
 
 Bug fixes
