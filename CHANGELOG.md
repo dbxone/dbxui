@@ -78,7 +78,7 @@ Bug fixes and improvements
 - #1475: Fix warning text and button overlap
 - Fix a text overflow issue in AccessSettings hover popup
 - #1478: Set version in package.json instead of git tag
-- #1481: Fix checkFeeStatusAsync duplicate asset resolution issues with BTS
+- #1481: Fix checkFeeStatusAsync duplicate asset resolution issues with DBX
 - #1469 display market fee precision
 - Fix #1328: Portfolio price/value sorting
 - Performance fix: don't update AccountStore state when no changes are made
