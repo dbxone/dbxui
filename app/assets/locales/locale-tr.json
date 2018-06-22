@@ -1527,7 +1527,7 @@
         "hide_asset": "Bu dijital varlığı gizlemek için tıklayın.",
         "latest_price": "Piyasadaki gerçekleşen son işlemin fiyat değeri",
         "login":
-            "Bitshares cüzdanında geleneksel oturum açma-kapatma yoktur, bunun yerine cüzdanınız <b>kilitli</b> ve <b>açık</b> konumlarından birinde tutulur. Cüzdanınız kilitli olduğunda herhangi bir işlem yapılamaz, yalnızca gözlemci olunabilir.",
+            "dbxchain cüzdanında geleneksel oturum açma-kapatma yoktur, bunun yerine cüzdanınız <b>kilitli</b> ve <b>açık</b> konumlarından birinde tutulur. Cüzdanınız kilitli olduğunda herhangi bir işlem yapılamaz, yalnızca gözlemci olunabilir.",
         "margin_price":
             "Teminat tamamlama çağrısı yapılmış pozisyonun ödemesi istenebilecek en yüksek değer",
         "market_fee":
