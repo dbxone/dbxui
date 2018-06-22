@@ -1863,7 +1863,7 @@
         "import_backup_choose":
             "Please select your backup file in the dialog below. This is completely safe as the file is not uploaded anywhere and never leaves your browser.",
         "import_balance": "Import balance(s)",
-        "import_bts": "Import a BTS 0.9.3c key export",
+        "import_bts": "Import a DBX 0.9.3c key export",
         "import_bts1": "비트쉐어 0.9.3c에서 가져오기",
         "import_key_success": "Successfully imported %(count)s keys.",
         "import_keys": "키 가져오기",
