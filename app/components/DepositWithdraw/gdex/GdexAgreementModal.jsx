@@ -421,7 +421,7 @@ class GdexAgreementModal extends React.Component {
                             institutions or single persons that issue assets
                             and/or provide service on dbxchain. You understand
                             that the Gateway is only used for you to
-                            deposit/withdraw cryptocurrency to/from Bitshares.
+                            deposit/withdraw cryptocurrency to/from dbxchain.
                             The Gateway only undertake the due obligations for
                             the availability of own issued assets (with 'GDEX.'
                             as prefix of the name), do not undertake the due
