@@ -201,7 +201,7 @@ describe("Asset", function() {
 
         let result1 = asset.times(price1);
         assert.equal(result1.asset_id, "1.3.121", "Asset id should be 1.3.121");
-        // 100 BTS * 200 BTS/USD = 100 BTS * (1/200) USD/BTS = 0.5 USD
+        // 100 DBX * 200 BTS/USD = 100 BTS * (1/200) USD/BTS = 0.5 USD
         assert.equal(
             result1.getAmount({real: true}),
             0.5,
