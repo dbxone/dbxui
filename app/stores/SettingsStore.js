@@ -179,7 +179,7 @@ class SettingsStore {
             // Default markets setup
             let topMarkets = {
                 markets_4018d784: [
-                    // BTS MAIN NET
+                    // DBX MAIN NET
                     "OPEN.MKR",
                     "DBX",
                     "OPEN.ETH",
