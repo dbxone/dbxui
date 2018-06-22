@@ -47,7 +47,7 @@ olursunuz.
 
 Ödünç/kısa pozisyonu tutan kişi , herhangi bir zamanda , piyasa 
 davranışını esnek bir biçimde ayarlamak için teminat oranını değiştirebilir. Eğer 
-teminat oranı arttırılırsa , ilave miktarda BTS teminat olarak kilit altına alınır, teminat 
+teminat oranı arttırılırsa , ilave miktarda DBX teminat olarak kilit altına alınır, teminat 
 oranının düşürülmesi ise tekabül eden miktarda BitVarlığın ağa geri ödenmesini 
 gerektirir.
 
