@@ -1154,7 +1154,7 @@
             "amount": "Yatıralacak Miktar",
             "asset": "Asset",
             "bts_transfer_description":
-                "It's easy to receive BTS from anywhere. As long as BTS is sent to your account name it will show up in your wallet. This QR code also contains your account name.",
+                "It's easy to receive DBX from anywhere. As long as BTS is sent to your account name it will show up in your wallet. This QR code also contains your account name.",
             "cancel": "Cancel",
             "close": "Close",
             "header": "Deposit to %(account_name)s",
