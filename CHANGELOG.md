@@ -572,7 +572,7 @@ Bug fixes
 - Fix error message for expired transactions
 - Fix broken telegram chat room link
 - Disable the trollbox, remove password change entry in settings for password logins
-- Fix a rounding issue when estimating non-BTS fees in the exchange
+- Fix a rounding issue when estimating non-DBX fees in the exchange
 - Fix Header not showing unlock state properly after wallet/account creation
 - Add a worker creation form
 - Fix depth chart for markets with extreme spreads
