@@ -269,7 +269,7 @@ class ImportKeys extends Component {
         let account_addresses = {};
 
         let savePubkeyAccount = function(pubkey, account_name) {
-            //replace BTS with GPH
+            //replace DBX with GPH
             pubkey = ChainConfig.address_prefix + pubkey.substring(3);
             let address = PublicKey.fromPublicKeyString(
                 pubkey
