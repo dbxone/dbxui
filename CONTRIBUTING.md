@@ -1,6 +1,6 @@
 Please work off the staging branch and make pull requests to that branch. The master branch will only be updated for new releases.
 
-The Bitshares UI team is supported by this [worker proposal](http://www.dbxchain.foundation/workers/2017-08-bill-butler). It provides the funds needed to pay the coordinator and the bounties and the Bitshares Foundation.
+The dbxchain UI team is supported by this [worker proposal](http://www.dbxchain.foundation/workers/2017-08-bill-butler). It provides the funds needed to pay the coordinator and the bounties and the Bitshares Foundation.
 
 If you would like to get involved, we have a [Telegram chatroom](https://t.me/DBXChainDEX) where you can ask questions and get help. You may also join [DBXChain on Discord](https://discord.gg/GsjQfAJ)
 
