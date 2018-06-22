@@ -49,7 +49,7 @@ short-selling is now complete and you are short that particular bitAsset.
 
 At any time, the holder of a borrow/short position can modify the collateral
 ratio in order to flexibly adjust to market behavior. If the collateral ratio is
-increase, an additional amount of BTS is locked as collateral, while reducing
+increase, an additional amount of DBX is locked as collateral, while reducing
 the collateral ratio will require an amount of the corresponding BitAsset to be
 payed back to the network.
 
