@@ -254,7 +254,7 @@ const MarketUtils = {
         if (order.debt) {
             if (invert) {
                 // Price in USD/DBX, amount should be in DBX, value should be in USD, debt is in USD
-                // buy is in USD, sell is in BTS
+                // buy is in USD, sell is in DBX
                 // quote is USD, base is BTS
                 value = order.debt / quotePrecision;
                 amount = this.limitByPrecision(value / price.full, base);
