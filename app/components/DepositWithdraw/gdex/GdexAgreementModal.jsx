@@ -436,7 +436,7 @@ class GdexAgreementModal extends React.Component {
                             include but not limit to failure for software,
                             hardware to connect to Internet, security risk for
                             dbxchain accounting system. As the availability and
-                            reliability of Internet and Bitshares are not under
+                            reliability of Internet and dbxchain are not under
                             our control, we do not undertake obligations for the
                             loss caused by the risks mentioned above.
                         </p>
