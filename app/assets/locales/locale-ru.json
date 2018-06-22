@@ -8,7 +8,7 @@
         "asset_details": "Детали актива",
         "bittrex_scam":
             "Этот аккаунт не является реальным аккаунтом Bittrex, пожалуйста, отправьте на этот аккаунт: bittrex-deposit.",
-        "bts_market": "Рынок",
+        "dbx_market": "Рынок",
         "collaterals": "Обеспечение позиций",
         "confirm_asset_modal": {
             "are_you_sure":
