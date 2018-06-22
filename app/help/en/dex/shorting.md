@@ -30,7 +30,7 @@ call price = DEBT / COLLATERAL * MCR
 ```
 
 The margin call will take the collateral, buy shares of borrowed bitAsset at
-market rates up to the SQP and close the position. The remaining BTS of the
+market rates up to the SQP and close the position. The remaining DBX of the
 collateral are returned to the customer.
 
 ### Settlement
