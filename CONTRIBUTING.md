@@ -11,7 +11,7 @@ If you would like to get involved, we have a [Telegram chatroom](https://t.me/DB
 
 ## 贡献
 
-Bitshares UI团队被这一[工作提案](https://steemit.com/dbxchain/@billbutler/translated-by-zhaomu-l)支持。它提供用来支付协调者，悬赏金和DBX基金的资金。
+dbxchain UI团队被这一[工作提案](https://steemit.com/dbxchain/@billbutler/translated-by-zhaomu-l)支持。它提供用来支付协调者，悬赏金和DBX基金的资金。
 
 如果你想参与贡献，我们有一个[Telegram 聊天室](https://t.me/DBXChainDEX)，在这里你可以问问题并得到帮助。
 
