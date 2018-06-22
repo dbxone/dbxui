@@ -1879,7 +1879,7 @@
         "go_get_started": "Getting Started",
         "has_wallet":
             "When you create your first DBXChain account, a DBXChain local wallet will be automatically created as well and stored in your browser. This local wallet is encrypted with your password, and will contain any private keys belonging to your accounts. It is important that you take the time to backup this wallet once created!",
-        "import_20_notice1": "Importieren Sie Ihr BTS 2.0+ BACKUP zuerst",
+        "import_20_notice1": "Importieren Sie Ihr DBX 2.0+ BACKUP zuerst",
         "import_20_notice2": "(falls vorhanden)",
         "import_backup": "Sicherung importieren",
         "import_backup_choose":
