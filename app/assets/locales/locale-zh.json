@@ -1792,7 +1792,7 @@
         "go_get_started": "新手指南",
         "has_wallet":
             "当你创建第一个账户时，一个钱包也同时被创建，并保存在你的浏览器中。这个钱包使用提供的密码加密，其中包含账户的私钥。在创建完成后，请记得备份钱包！",
-        "import_20_notice1": "请先导入你的BTS 2.0+ 钱包备份文件",
+        "import_20_notice1": "请先导入你的DBX 2.0+ 钱包备份文件",
         "import_20_notice2": "(如果你有的话)",
         "import_backup": "导入钱包备份文件 (.bin)",
         "import_backup_choose":
