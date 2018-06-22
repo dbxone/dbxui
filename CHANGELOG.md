@@ -439,7 +439,7 @@ New features
 
 Bug fixes
 --------
-- #658 BTS trade button missing from portfolio view
+- #658 DBX trade button missing from portfolio view
 - #627 Display Feed Published value as an actual date/time in localized time zone
 - #52 Show a warning about core_exchange_rate at asset create/update page
 - #455 Trollbox has been removed completely
