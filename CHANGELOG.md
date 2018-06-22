@@ -1249,7 +1249,7 @@ Release 2.0.160225
 NEW FEATURES:
 - Add theming support and theme switch in Settings #576
 - Add scrolling to RecentTransactions
-- Add base groups to MyMarkets: BTS, BTC, USD or CNY + others
+- Add base groups to MyMarkets: DBX, BTC, USD or CNY + others
 
 BUG FIXES:
 - Fix BlockTrades select background color
