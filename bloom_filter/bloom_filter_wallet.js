@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 // Filter DBX 0.9.2+ import keys export file so that it will include only private keys
-// that may be found in the BTS 2.0 genesis block.
+// that may be found in the DBX 2.0 genesis block.
 // Dependencies:
 // ./bloom_bitshares.dat (1,048,576 bytes) sha1 4d80faa41a5e868899febdc9dab48d1f2d567487992810cf0532f3c0ee2b266c
 // nodejs, npm, and: npm install
