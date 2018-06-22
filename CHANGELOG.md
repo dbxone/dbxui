@@ -241,7 +241,7 @@ New features
 - #686: Browser notifications for transfers
 - #904: Implement Settings UX
 - Page walkthrough guides implemented for #1139
-- #359: Added green pulsing buy button when DBX is under 1 BTS
+- #359: Added green pulsing buy button when DBX is under 1 DBX
 - Nodes hiding functionality (#1148)
 - #1091: Display Accounts ID on Accounts Page
 - #1061: Deduct Hidden Assets from Portolio Total and provide Total for Hidden
