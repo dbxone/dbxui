@@ -210,7 +210,7 @@ describe("Asset", function() {
 
         let result2 = asset.times(price2);
         assert.equal(result2.asset_id, "1.3.121", "Asset id should be 1.3.121");
-        // 100 DBX * 0.001 USD / BTS = 0.1 USD
+        // 100 DBX * 0.001 USD / DBX = 0.1 USD
         assert.equal(
             result2.getAmount({real: true}),
             0.1,
