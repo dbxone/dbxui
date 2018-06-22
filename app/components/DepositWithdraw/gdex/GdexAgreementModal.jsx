@@ -414,7 +414,7 @@ class GdexAgreementModal extends React.Component {
                             shall not be held liable in any manner whatsoever.
                         </p>
                         <p>
-                            5. You understand that Bitshares is a decentralized
+                            5. You understand that dbxchain is a decentralized
                             exchange based on blockchain, the basic account
                             service and the trade processing service are
                             provided by Bitshares, there are also other
