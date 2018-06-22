@@ -8,7 +8,7 @@ alıp-satılabilen yeni  bir tür dijital varlıklardır. Bunların değerleri, 
 dayandıkları geleneksel varlıkların değerlerini takip etmek üzere dizayn edilmişlerdir. 
 
 *AkıllıPara* (eşanlamı MPA) , değerinin  *daima*  100% yada daha fazlası DBXChain'in 
- ana para birimi (BTS) ile desteklenen bir kripto-paradır. Bu *AkıllıParalar* herhangi bir 
+ ana para birimi (DBX) ile desteklenen bir kripto-paradır. Bu *AkıllıParalar* herhangi bir 
 zamanda bir fark-kontratı (CFD) içinde *teminat* olarak BTS'ye dönüştürülebilirler .
 
 Teminatla desteklenen FK'nı andırmalarına rağmen PSV'leri nadir yapan şey 
