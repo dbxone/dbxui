@@ -770,7 +770,7 @@
             "name_text":
                 "El nombre de su trabajador debe ser breve y descriptivo, algo como esto: 'Objetivo del trabajador - Nombre de la cuenta'",
             "pay_text":
-                "El pago diario define cuánto quiere que le paguen por día y se define en BTS. La mejor práctica actual es definir un salario en USD / CNY, y comprometerse a quemar cualquier superávit que reciba como resultado del aumento del precio de BTS. Mientras su trabajador esté activo y tenga suficientes votos para estar por encima del trabajador de reembolso, recibirá este salario diario.",
+                "El pago diario define cuánto quiere que le paguen por día y se define en DBX. La mejor práctica actual es definir un salario en USD / CNY, y comprometerse a quemar cualquier superávit que reciba como resultado del aumento del precio de BTS. Mientras su trabajador esté activo y tenga suficientes votos para estar por encima del trabajador de reembolso, recibirá este salario diario.",
             "period": "Duración del trabajador",
             "title": "Presupuestos por Trabajos",
             "url_text":
