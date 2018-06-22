@@ -355,7 +355,7 @@ class GdexAgreementModal extends React.Component {
                             point for GDEX is https://gdex.io, GDEX is a gateway
                             that provide cryptocurrency deposit and withdraw
                             service (hereinafter referred to as 'the Service')
-                            to/from Bitshares. For the convenience of wording in
+                            to/from dbxchain. For the convenience of wording in
                             this Agreement, the Company and the Gateway are
                             referred to as 'We' or other applicable forms of
                             first person pronouns in this Agreement. All natural
