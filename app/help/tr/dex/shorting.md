@@ -22,7 +22,7 @@ pozisyonları teminatı tamamlamaları için çağırabilir. Marjin çağrısı 
 teklifinin *çağrı fiyatından* az , ve *SQP* dan büyük olduğu herhangi bir anda 
 meydana gelebilir.
 Marjin pozisyonu, teminatı satın almaya verilen en yüksek teklifin çağrı 
-fiyatından(x/BTS) daha düşük olduğu anda teminatı zorla sattırılır.
+fiyatından(x/DBX) daha düşük olduğu anda teminatı zorla sattırılır.
 
     SQP =  uzlaşma fiyatı / MSQR
     çağrı fiyatı = BORÇ / TEMİNAT * MCR
