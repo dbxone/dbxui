@@ -1790,7 +1790,7 @@
     "wallet": {
         "accept": "Kabul",
         "account_create_wallet_text":
-            "Bu şifre yeni bir Bitshares cüzdanı oluşturmak için kullanılacak ve tarayıcınızda saklanacaktır. Cüzdanınızı yedeklerseniz, bu şifre ile birlikte başka bilgisayarlardan ve tarayıcılardan cüzdanınıza ulaşabilirsiniz.",
+            "Bu şifre yeni bir dbxchain cüzdanı oluşturmak için kullanılacak ve tarayıcınızda saklanacaktır. Cüzdanınızı yedeklerseniz, bu şifre ile birlikte başka bilgisayarlardan ve tarayıcılardan cüzdanınıza ulaşabilirsiniz.",
         "account_exp":
             "This account will be created on the blockchain and will be your address for any transfers you want to make! <strong>There are no long Bitcoin-style addresses in DBXChain!</strong>",
         "account_public": "Kullanıcı adı (herkese açık)",
