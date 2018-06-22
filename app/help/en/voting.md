@@ -19,7 +19,7 @@ shareholders of DBXChain can cast a vote for your preferred block producers on t
 
 ## Committee
 
-The committee is a set of entities that are approved by the shareholders and set policy for the Bitshares blockchain including:
+The committee is a set of entities that are approved by the shareholders and set policy for the dbxchain blockchain including:
 
 * Transaction and trading fees
 * Blockchain parameters, such as block size, block interval
