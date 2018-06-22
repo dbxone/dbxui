@@ -22,7 +22,7 @@ have enough collateral to back their borrowed bitAssets. A margin call will
 occur any time the highest bid is less than the *call price* and greater than
 *SQP*.
 The margin position will be forced to sell its collateral anytime the highest
-offer to buy the collateral is less than the call price (x/BTS).
+offer to buy the collateral is less than the call price (x/DBX).
 
 ```
 SQP = settlement price / MSQR
