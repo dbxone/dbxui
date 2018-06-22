@@ -768,7 +768,7 @@
             "name_text":
                 "Il nome del tuo worker dovrebbe essere breve e descrittivo, tipo: 'Scopo del worker - Nome Account'",
             "pay_text":
-                "La paga giornaliera specifica quanto quanto vuoi essere pagato al giorno, ed è specificata in BTS. Attualmente, è buona norma definire il salario in USD/CNY, e impegnarsi a bruciare qualunque surplus che ottieni per via della crescita del prezzo di BTS. Finché il tuo worker è attivo e dispone di voti a sufficienza da stare sopra il Refund Worker, riceverai questa paga giornaliera.",
+                "La paga giornaliera specifica quanto quanto vuoi essere pagato al giorno, ed è specificata in DBX. Attualmente, è buona norma definire il salario in USD/CNY, e impegnarsi a bruciare qualunque surplus che ottieni per via della crescita del prezzo di BTS. Finché il tuo worker è attivo e dispone di voti a sufficienza da stare sopra il Refund Worker, riceverai questa paga giornaliera.",
             "period": "Durata worker",
             "title": "Nome del worker",
             "url_text":
