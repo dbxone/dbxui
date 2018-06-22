@@ -8,7 +8,7 @@
         "asset_details": "Detalles de activos",
         "bittrex_scam":
             "Esta cuenta no es la verdadera cuenta de Bittrex, por favor envíe a esta cuenta: bittrex-deposit.",
-        "bts_market": "Mercado",
+        "dbx_market": "Mercado",
         "collaterals": "Posiciones Colaterales",
         "confirm_asset_modal": {
             "are_you_sure":
