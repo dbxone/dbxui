@@ -1493,7 +1493,7 @@
     },
     "tooltip": {
         "borrow":
-            "Blokzincirinden %(asset)s borç al. Bu işlem ile belirli bir miktar teminat belirleyerek Bitshares'in akıllı kontrat sistemi aracılığıyla dijital ürün borç alabilirsiniz. Borcu ödediğinizde teminat da serbest kalacaktır.",
+            "Blokzincirinden %(asset)s borç al. Bu işlem ile belirli bir miktar teminat belirleyerek dbxchain'in akıllı kontrat sistemi aracılığıyla dijital ürün borç alabilirsiniz. Borcu ödediğinizde teminat da serbest kalacaktır.",
         "bridge_TRADE":
             "BlockTrades is a bridge which supports instant trade of assets. Details and terms can be found on https://blocktrades.us",
         "buy_min":
