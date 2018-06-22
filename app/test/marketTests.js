@@ -670,7 +670,7 @@ describe("LimitOrderCreate", function() {
     it("Instantiates", function() {
         let order = new LimitOrderCreate({
             to_receive: USD,
-            for_sale: BTS
+            for_sale: DBX
         });
 
         assert(order !== null);
