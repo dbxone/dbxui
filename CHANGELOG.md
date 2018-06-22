@@ -559,7 +559,7 @@ New features
 
 Bug fixes
 --------
-- Fix #188: Total calculation (BTS) is not displayed correctly
+- Fix #188: Total calculation (DBX) is not displayed correctly
 - Add localStorage fallback to BlockTradesDepositAddressCache, fix #327
 - Update BindToChainState for getAccount autosubscribe option, fix #202
 - Ensure proxy props changing updates component state
