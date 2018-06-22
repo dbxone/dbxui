@@ -1849,7 +1849,7 @@
         "brainkey_w2":
             "Chiunque abbia accesso alla tua chiave di recupero avrà",
         "brainkey_w3": "accesso ai fondi in questo portafoglio.",
-        "bts_09_export": "File di esportazione chiavi BTS 0.9.3c (.json)",
+        "bts_09_export": "File di esportazione chiavi DBX 0.9.3c (.json)",
         "bts_rules":
             "La prima regola di DBXChain è: Non perdere la tua password.<br/>La seconda regola di DBXChain è: Non perdere la tua password.<br />La terza regola di DBXChain è: Non possiamo recuperare la tua password.<br />La quarta regola: Se puoi ricordare la tua password, allora non è sicura.<br />La quinta regola: Usa solo password generate a caso.<br />La sesta regola: Non dire a nessuno la tua password.<br />La settima regola: Fai sempre il backup della tua password.",
         "cancel": "Annulla",
