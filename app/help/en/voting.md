@@ -1,6 +1,6 @@
 # Voting
 
-> Voting is important in dbxchain in the same way it is important to the community in which you live. The weight of your vote is directly correlated to the number of BTS you own. If you aren't heavily involved in the community, you are encouraged to choose a proxy who represents your interests. If you would like to be more involved in the community, check out these [channels](/help/introduction/dbxchain).
+> Voting is important in dbxchain in the same way it is important to the community in which you live. The weight of your vote is directly correlated to the number of DBX you own. If you aren't heavily involved in the community, you are encouraged to choose a proxy who represents your interests. If you would like to be more involved in the community, check out these [channels](/help/introduction/dbxchain).
 
 ## Proxy
 
