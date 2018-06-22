@@ -1916,7 +1916,7 @@
         "no_wallet": "Cüzdanınız bulunmamaktadır.",
         "noneed_backup": "Cüzdanınız daha önceden yedeklenmiş görünüyor.",
         "not_first_account":
-            "Zaten bir Bitshares hesabı ile giriş yapılmış, bu yüzden yeni oluşturacağınız her hesap için ağ ücreti ödemeniz gerekmektedir.",
+            "Zaten bir dbxchain hesabı ile giriş yapılmış, bu yüzden yeni oluşturacağınız her hesap için ağ ücreti ödemeniz gerekmektedir.",
         "ok_done": "OK, take me to the dashboard",
         "pass_incorrect": "Incorrect password",
         "pass_length":
