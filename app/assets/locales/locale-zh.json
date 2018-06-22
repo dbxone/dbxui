@@ -8,7 +8,7 @@
         "asset_details": "资产详情",
         "bittrex_scam":
             "注意：这个账户不是交易所 Bittrex 的存款账户，请发送至 bittrex-deposit。",
-        "bts_market": "交易市场",
+        "dbx_market": "交易市场",
         "collaterals": "抵押债仓",
         "confirm_asset_modal": {
             "are_you_sure":
