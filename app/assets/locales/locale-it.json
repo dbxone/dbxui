@@ -1907,7 +1907,7 @@
         "go_get_started": "Vedi i suggerimenti per iniziare",
         "has_wallet":
             "Quando crei il tuo primo account DBXChain, un portafoglio DBXChain viene creato automaticamente e memorizzato nel tuo browser. Questo portafoglio è crittografato con la tua password, e contiene tutte le chiavi private che appartengono al tuo account. È molto importante che dedichi il tempo necessario per creare un backup di questo portafoglio, dopo la creazione!",
-        "import_20_notice1": "Importa prima il tuo BACKUP BTS 2.0+",
+        "import_20_notice1": "Importa prima il tuo BACKUP DBX 2.0+",
         "import_20_notice2": "(se ne hai uno)",
         "import_backup": "Importa backup DBXChain 2.0 (file .bin)",
         "import_backup_choose":
