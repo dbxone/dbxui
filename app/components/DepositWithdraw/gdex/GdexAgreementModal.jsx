@@ -426,7 +426,7 @@ class GdexAgreementModal extends React.Component {
                             the availability of own issued assets (with 'GDEX.'
                             as prefix of the name), do not undertake the due
                             obligations for the account service and the trade
-                            processing service provided by Bitshares, do not
+                            processing service provided by dbxchain, do not
                             undertake the due obligations for availability of
                             the assets issued by other institutions or single
                             persons.{" "}
