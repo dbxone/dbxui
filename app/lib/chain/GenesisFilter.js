@@ -15,7 +15,7 @@ try {
 }
 
 /**
-    This should only be applied to a BTS 1.0 export file taken on the
+    This should only be applied to a DBX 1.0 export file taken on the
     discontinued chain. Any public key string or address (all 5 formats) carried
     over to the BTS 2.0 genesis block will be in this filter.
 
