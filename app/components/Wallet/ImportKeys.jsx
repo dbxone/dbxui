@@ -143,7 +143,7 @@ class ImportKeys extends Component {
         reader.readAsText(file);
     }
 
-    /** BTS 1.0 client wallet_export_keys format. */
+    /** DBX 1.0 client wallet_export_keys format. */
     _parseImportKeyUpload(json_contents, file_name, update_state) {
         let password_checksum, unfiltered_account_keys;
         try {
