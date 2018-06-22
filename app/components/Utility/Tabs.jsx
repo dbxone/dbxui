@@ -228,7 +228,7 @@ class Tabs extends React.Component {
                                 <select
                                     value={this.state.activeTab}
                                     style={{marginTop: 10, marginBottom: 10}}
-                                    className="bts-select"
+                                    className="dbx-select"
                                     onChange={e => {
                                         let ind = parseInt(e.target.value, 10);
                                         this._changeTab(
