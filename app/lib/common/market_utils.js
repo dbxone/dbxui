@@ -253,7 +253,7 @@ const MarketUtils = {
 
         if (order.debt) {
             if (invert) {
-                // Price in USD/BTS, amount should be in BTS, value should be in USD, debt is in USD
+                // Price in USD/DBX, amount should be in BTS, value should be in USD, debt is in USD
                 // buy is in USD, sell is in BTS
                 // quote is USD, base is BTS
                 value = order.debt / quotePrecision;
