@@ -1198,7 +1198,7 @@
             "address_not_valid": "Invalid address",
             "amount": "Amount to Withdraw",
             "available": "Available: ",
-            "bitshares_account": "Send to Bitshares Account",
+            "bitshares_account": "Send to dbxchain Account",
             "cancel": "Cancel",
             "cannot_cover": "Insufficient funds!",
             "estimated_value": "Estimated Value",
