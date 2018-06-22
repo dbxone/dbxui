@@ -732,7 +732,7 @@ describe("LimitOrderCreate", function() {
     it("Throws if assets are the same", function() {
         assert.throws(function() {
             new LimitOrderCreate({
-                to_receive: BTS,
+                to_receive: DBX,
                 for_sale: BTS
             });
         });
