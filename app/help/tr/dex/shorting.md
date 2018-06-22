@@ -1,6 +1,6 @@
 # BitAktif Kısa Satışı
 
-BTS'le temasınızı arttırmak ve USD,EUR,GOLD gibi BitAktiflere likidite sağlamak için 
+DBX'le temasınızı arttırmak ve USD,EUR,GOLD gibi BitAktiflere likidite sağlamak için 
 bu BitAktifleri ağdan *ödünç* alabilir ve *kısa satabilirsiniz*. Prosedürü burada kısaca 
 anlatacağız.
 
