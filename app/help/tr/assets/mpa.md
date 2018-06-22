@@ -9,7 +9,7 @@ dayandıkları geleneksel varlıkların değerlerini takip etmek üzere dizayn e
 
 *AkıllıPara* (eşanlamı MPA) , değerinin  *daima*  100% yada daha fazlası DBXChain'in 
  ana para birimi (DBX) ile desteklenen bir kripto-paradır. Bu *AkıllıParalar* herhangi bir 
-zamanda bir fark-kontratı (CFD) içinde *teminat* olarak BTS'ye dönüştürülebilirler .
+zamanda bir fark-kontratı (CFD) içinde *teminat* olarak DBX'ye dönüştürülebilirler .
 
 Teminatla desteklenen FK'nı andırmalarına rağmen PSV'leri nadir yapan şey 
 onların  karşı taraf riskinden muaf olmalarıdır. Bunun mümkün olması için teminatı 
