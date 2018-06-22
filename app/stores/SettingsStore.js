@@ -7,7 +7,7 @@ import ls from "common/localStorage";
 import {Apis} from "bitsharesjs-ws";
 import {settingsAPIs} from "api/apiConfig";
 
-const CORE_ASSET = "DBX"; // Setting this to DBX to prevent loading issues when used with BTS chain which is the most usual case currently
+const CORE_ASSET = "DBX"; // Setting this to DBX to prevent loading issues when used with DBX chain which is the most usual case currently
 
 const STORAGE_KEY = "__graphene__";
 let ss = new ls(STORAGE_KEY);
