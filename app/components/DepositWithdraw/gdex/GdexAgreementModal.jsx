@@ -417,7 +417,7 @@ class GdexAgreementModal extends React.Component {
                             5. You understand that dbxchain is a decentralized
                             exchange based on blockchain, the basic account
                             service and the trade processing service are
-                            provided by Bitshares, there are also other
+                            provided by dbxchain, there are also other
                             institutions or single persons that issue assets
                             and/or provide service on Bitshares. You understand
                             that the Gateway is only used for you to
