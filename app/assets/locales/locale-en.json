@@ -752,7 +752,7 @@
                 "In order to create your new worker, please fill in the form below. The worker will be created using your currently active account, which must already be a lifetime member.",
             "create_text_2":
                 "Consider carefully the parameters you choose as they can not be changed once you've published your worker.",
-            "daily_pay": "Daily pay (BTS)",
+            "daily_pay": "Daily pay (DBX)",
             "date_text":
                 "The start date should be at least a week into the future in order to allow people the time to discover, evaluate and vote for your worker.",
             "name_text":
