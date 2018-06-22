@@ -1853,7 +1853,7 @@
         "create_password": "Şifre kullanarak yeni bir hesap oluştur.",
         "create_success": "Tebrikler! Hesabınız oluşturuldu.",
         "create_text":
-            "Bitshares cüzdanınız tamamen kendi bilgisayarınızda tutulur ve cüzdan bilgileriniz ya da şifreniz siz paylaşmadığınız sürece kimseyle paylaşılmaz.",
+            "dbxchain cüzdanınız tamamen kendi bilgisayarınızda tutulur ve cüzdan bilgileriniz ya da şifreniz siz paylaşmadığınız sürece kimseyle paylaşılmaz.",
         "create_w_a": "Ücretsiz hesap oluşturun",
         "create_wallet": "Cüzdan Oluştur",
         "create_wallet_backup": "Yedeklenmiş cüzdanı aktar.",
