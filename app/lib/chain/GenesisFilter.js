@@ -17,7 +17,7 @@ try {
 /**
     This should only be applied to a DBX 1.0 export file taken on the
     discontinued chain. Any public key string or address (all 5 formats) carried
-    over to the BTS 2.0 genesis block will be in this filter.
+    over to the DBX 2.0 genesis block will be in this filter.
 
     Their may be some false positives but no false negatives.
 */
