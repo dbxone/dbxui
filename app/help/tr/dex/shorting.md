@@ -28,7 +28,7 @@ fiyatından(x/DBX) daha düşük olduğu anda teminatı zorla sattırılır.
     çağrı fiyatı = BORÇ / TEMİNAT * MCR
 
 Marjin çağrısı teminatı alır , ödünç alınmış bitaktif hisselerinin SQP ya kadarki kısmını
-piyasa fiyatından satın alır ve pozisyonu kapar. Teminattan geri kalan BTS müşteriye 
+piyasa fiyatından satın alır ve pozisyonu kapar. Teminattan geri kalan DBX müşteriye 
 iade edilir.
 
 ### Hesap görme
