@@ -1269,7 +1269,7 @@ NEW FEATURES:
 
 BUG FIXES:
 - Exchange buy fee selection
-- Remove link to DBX:BTS market in asset popover, fix asset description #709
+- Remove link to DBX:DBX market in asset popover, fix asset description #709
 - Disable annual membership upgrade #730
 - Fix My Orders not updating when flipping the market
 - Fix Orderbook totals calculation
