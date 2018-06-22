@@ -710,7 +710,7 @@ describe("LimitOrderCreate", function() {
         assert.throws(function() {
             new LimitOrderCreate({
                 to_receive: null,
-                for_sale: BTS
+                for_sale: DBX
             });
         });
 
