@@ -16,4 +16,4 @@ Emekçilerin ücretleri, ilk-gelen ilk-çalışır prensibiyle günlük sabit bi
 * Tüm Emekçiler için günlük toplam bütçe 400 bin DBX olsun
 * Her biri günlük 100k DBX talep eden toplam oyların pozitif olduğu 5 emekçi teklifi
 
-Oyların çoğuna sahip 4 emekçinin her birine günlük 100 bin BTS ödenecek, fakat ödemeler tamamlandığında emekçi bütçesi tükenmiş olacak. O yüzden 5. emekçiye hiç bir şey ödenmeyecek.
+Oyların çoğuna sahip 4 emekçinin her birine günlük 100 bin DBX ödenecek, fakat ödemeler tamamlandığında emekçi bütçesi tükenmiş olacak. O yüzden 5. emekçiye hiç bir şey ödenmeyecek.
