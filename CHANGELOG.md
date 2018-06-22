@@ -1460,7 +1460,7 @@ NEW FEATURES:
 
 BUG FIXES:
 - Fix market issue: clicking on account balance vs Lowest Ask #469
-- Transfer Dialog does not fall back to BTS fee when there is no core exchange rate or funded fee pool #329
+- Transfer Dialog does not fall back to DBX fee when there is no core exchange rate or funded fee pool #329
 - "Borrow Asset" window resets on new block on some accounts #505
 - Clicking on lowest or highest buy/sell price does not result in an eligible market order #515
 - Add the collateral ratio number of each asset to the overview page #397
