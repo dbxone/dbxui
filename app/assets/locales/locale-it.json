@@ -1913,7 +1913,7 @@
         "import_backup_choose":
             "Seleziona il tuo file di backup nella finestra di dialogo sotto. Farlo è sicuro perché il file non è mai caricato online e non lascia il tuo browser.",
         "import_balance": "Importa saldo/i",
-        "import_bts": "Importa un'esportazione chiavi BTS 0.9.3c",
+        "import_bts": "Importa un'esportazione chiavi DBX 0.9.3c",
         "import_bts1": "Importa da DBXChain 0.9.3c",
         "import_key_success": "%(count)s chiavi importate con successo.",
         "import_keys": "Importa chiavi",
