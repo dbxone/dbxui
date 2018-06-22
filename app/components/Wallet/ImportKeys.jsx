@@ -254,7 +254,7 @@ class ImportKeys extends Component {
     /**
     DBX 1.0 hosted wallet backup (wallet.bitshares.org) is supported.
 
-    BTS 1.0 native wallets should use wallet_export_keys instead of a wallet backup.
+    DBX 1.0 native wallets should use wallet_export_keys instead of a wallet backup.
 
     Note,  Native wallet backups will be rejected.  The logic below does not
     capture assigned account names (for unregisted accounts) and does not capture
