@@ -134,7 +134,7 @@ function requestWithoutTimeout(reqBody, reqUrl) {
     if (!reqBody.requestChannel) reqBody.requestChannel = 0;
     if (!reqBody.version) reqBody.version = "1.0";
     if (!reqBody.timestamp) reqBody.timestamp = new Date().getTime();
-    if (!reqBody.outerChannel) reqBody.outerChannel = "Bitshares";
+    if (!reqBody.outerChannel) reqBody.outerChannel = "dbxchain";
     let body_string = JSON.stringify(reqBody);
     if (assetsRequest[body_string]) return;
     assetsRequest[body_string] = true;
