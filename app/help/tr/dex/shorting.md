@@ -9,7 +9,7 @@ anlatacağız.
 DBXChain ağının herhangi bir miktarda BitVarlığı piyasaya sürmesi ve yeterli teminat 
 karşılığında katılımcılara borç vermesi mümkündür. 
 
- * *uzlaşma fiyatı* : 1 BTS in dış borsalarda alıp-satılırkenki fiyatı.
+ * *uzlaşma fiyatı* : 1 DBX in dış borsalarda alıp-satılırkenki fiyatı.
  * *idame teminat oranı* (MCR) :  zorunlu minimum teminat oranı 
  * *maksimum kısa sıkıştırma oranı* (MSQR) : Tanıklar tarafından kısaların kısa sıkıştırmalara karşı nereye kadar korunacaklarını belirleyen oran.
  * *kısa sıkıştırmadan korunma* (SQP) : Marjin pozisyonuna ödettirilebilecek en yüksek  
