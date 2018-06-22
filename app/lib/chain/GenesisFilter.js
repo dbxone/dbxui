@@ -87,7 +87,7 @@ export default class GenesisFilter {
 
     filter(account_keys, status) {
         if (!this.isAvailable()) {
-            console.log("WARN: Missing bloom filter for BTS 0.9.x wallets");
+            console.log("WARN: Missing bloom filter for DBX 0.9.x wallets");
             status({error: "missing_bloom"});
             return;
         }
