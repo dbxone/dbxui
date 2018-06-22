@@ -9,7 +9,7 @@ try {
 } catch (e) {
     // webpack deployment exception (not run time)
     console.log(
-        "WARN: Will be unable to filter BTS 1.0 wallet imports, did not find assets/bts_genesiskeys_bloom.dat",
+        "WARN: Will be unable to filter DBX 1.0 wallet imports, did not find assets/bts_genesiskeys_bloom.dat",
         e
     );
 }
