@@ -419,7 +419,7 @@ class GdexAgreementModal extends React.Component {
                             service and the trade processing service are
                             provided by dbxchain, there are also other
                             institutions or single persons that issue assets
-                            and/or provide service on Bitshares. You understand
+                            and/or provide service on dbxchain. You understand
                             that the Gateway is only used for you to
                             deposit/withdraw cryptocurrency to/from Bitshares.
                             The Gateway only undertake the due obligations for
