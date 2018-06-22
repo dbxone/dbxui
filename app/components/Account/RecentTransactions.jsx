@@ -363,7 +363,7 @@ class RecentTransactions extends React.Component {
                                             "tooltip.filter_ops"
                                         )}
                                         style={{paddingTop: 5, width: "auto"}}
-                                        className="bts-select no-margin"
+                                        className="dbx-select no-margin"
                                         value={this.state.filter}
                                         onChange={this._onChangeFilter.bind(
                                             this
