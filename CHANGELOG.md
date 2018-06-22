@@ -1428,7 +1428,7 @@ Release 2.0.151202
 ---------------------------------------------------------------------
 
 NEW FEATURES:
-- Option to pay fees in BTS if possible #356
+- Option to pay fees in DBX if possible #356
 - Block explorer page that shows the current fee schedule #357
 - Improved my history panel on Exchange page #527
 - Exchange layout improvements: add borders, refactor statusbar, no-data text, panel headers #538
