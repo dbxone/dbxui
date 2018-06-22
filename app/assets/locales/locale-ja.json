@@ -1204,7 +1204,7 @@
             "address_not_valid": "無効なアドレス",
             "amount": "出金数量",
             "available": "利用可能: ",
-            "bitshares_account": "Send to Bitshares Account",
+            "bitshares_account": "Send to dbxchain Account",
             "cancel": "キャンセル",
             "cannot_cover": "この出金をするのに十分な資金がありません",
             "estimated_value": "推定価格",
