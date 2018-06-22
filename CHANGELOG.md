@@ -1157,7 +1157,7 @@ Bug fixes
 - Fix account selector issue
 - Add warning about precision on asset creation #756
 - Fix tooltips not appearing over modals
-- Allow account upgrade, voting, permission changes and withdrawals to be paid in assets other than BTS if necessary #786
+- Allow account upgrade, voting, permission changes and withdrawals to be paid in assets other than DBX if necessary #786
 
 
 ---------------------------------------------------------------------
