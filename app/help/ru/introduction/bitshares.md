@@ -6,7 +6,7 @@
 
 ### Чат dbxchain
 
-Вы можете общаться с другими членами сообщества Bitshares в реальном времени здесь:
+Вы можете общаться с другими членами сообщества dbxchain в реальном времени здесь:
 
 - [Telegram](https://t.me/DBXChainDEX)
 - [Telegram (ru)](https://t.me/DBXChainDEX_RU)
