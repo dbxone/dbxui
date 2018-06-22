@@ -663,7 +663,7 @@ describe("LimitOrderCreate", function() {
         real: 5.232
     });
 
-    let BTS = new Asset({
+    let DBX = new Asset({
         real: 1045.5
     });
 
