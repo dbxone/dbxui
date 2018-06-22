@@ -350,7 +350,7 @@ class GdexAgreementModal extends React.Component {
                             referred to as the 'Company') is a company
                             incorporated under the laws in Singapore Republic,
                             GDEX (hereinafter referred to as 'GDEX' or 'the
-                            Gateway') is a cryptocurrency gateway to Bitshares
+                            Gateway') is a cryptocurrency gateway to dbxchain
                             which is operated by the company. The main access
                             point for GDEX is https://gdex.io, GDEX is a gateway
                             that provide cryptocurrency deposit and withdraw
