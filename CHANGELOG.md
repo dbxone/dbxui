@@ -509,7 +509,7 @@ Release 2.0.170914
 New features
 --------
 - Issue #315 - Add Chart Clamp To Settings Dropdown (#373)
-- Issue #364 - Present an error message that disallows the use of Incognito with the BTS wallet (#394)
+- Issue #364 - Present an error message that disallows the use of Incognito with the DBX wallet (#394)
 - Issue #311 - Allow for hiding user issued assets (#397)
 - Iss #43 - Notification for new version availability (#382)
 - Display all committee members and witnesses, fix #53
