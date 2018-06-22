@@ -260,7 +260,7 @@ const MarketUtils = {
                 amount = this.limitByPrecision(value / price.full, base);
             } else {
                 // Price in DBX/USD, amount should be in USD, value should be in DBX, debt is in USD
-                // buy is in USD, sell is in BTS
+                // buy is in USD, sell is in DBX
                 // quote is USD, base is BTS
 
                 amount = this.limitByPrecision(
