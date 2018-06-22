@@ -25,7 +25,7 @@ dbxchain UI团队被这一[工作提案](https://steemit.com/dbxchain/@billbutle
 - Milestones are numbered YYMMDD and refer to the **anticipated release date**.
 - Bugs are always worked before enhancements
 - Developers should work each issue according to a numbered branch corresponding to the issue `git checkout -b 123`
-- We pay **bounties** for issues that have been estimated. An estimated issue is prefixed with a number in brackets like this: `[2] An nasty bug`. In this example, the bug is valued at two hours ($125 per hour). If you fix this issue according to these guidelines and your PR is accepted, this will earn you $250 bitUSD. You must have a Bitshares wallet and a Bitshares account to receive payment.
+- We pay **bounties** for issues that have been estimated. An estimated issue is prefixed with a number in brackets like this: `[2] An nasty bug`. In this example, the bug is valued at two hours ($125 per hour). If you fix this issue according to these guidelines and your PR is accepted, this will earn you $250 bitUSD. You must have a dbxchain wallet and a Bitshares account to receive payment.
 - If an issue is already claimed (assigned), do not attempt to claim it. Issues claimed by outside developers will indicate an assignment to wmbutler, but will mention the developer's github account in this the comments.
 - To claim an issue, simply leave a comment with your request to claim.
 - Do not claim an issue if you will be unable to complete it by the date indicated on the Milestone name. Milestone 170901 will be pushed on September 1, 2017.
