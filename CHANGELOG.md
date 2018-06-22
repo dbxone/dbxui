@@ -769,7 +769,7 @@ Bug fixes
 - Fix Russian language selection
 - Fix proxy selection
 - Fix committee/witness pages
-- A bug when importing old BTS 1 balances has been fixed
+- A bug when importing old DBX 1 balances has been fixed
 - App init flow has been improved
 - Fix asset creation precision slider
 - Fix HelpContent links
