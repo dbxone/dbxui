@@ -1454,7 +1454,7 @@ NEW FEATURES:
 - Show stake percentages at all times in wallet #522
 - Display total assets of all account in chosen currency #512
 - Request settlement of bit asset #493
-- Show BTS balance in Accounts search results table #482
+- Show DBX balance in Accounts search results table #482
 - Exchange > highlight active market state on bottom right #499
 - Deposit/Withdraw page split into tabs (addresses #521)
 
