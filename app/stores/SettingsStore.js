@@ -257,7 +257,7 @@ class SettingsStore {
 
             let bases = {
                 markets_4018d784: [
-                    // BTS MAIN NET
+                    // DBX MAIN NET
                     "USD",
                     "OPEN.BTC",
                     "CNY",
