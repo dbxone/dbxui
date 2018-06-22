@@ -217,7 +217,7 @@ describe("Asset", function() {
             "Asset amount should be 0.1"
         );
 
-        // 55 USD * 250 DBX / USD = 13750 BTS
+        // 55 USD * 250 DBX / USD = 13750 DBX
         assert.equal(
             asset2.times(price3).getAmount({real: true}),
             13750,
