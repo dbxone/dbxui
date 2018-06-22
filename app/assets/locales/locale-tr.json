@@ -790,7 +790,7 @@
         "nosync":
             "Blokzinciri ile eşzamanlı değil, lütfen senkronize olana kadar bekleyin...",
         "synced": "Synced",
-        "title": "Bitshares",
+        "title": "dbxchain",
         "unsynced": "Out of sync",
         "update_available": "UPDATE AVAILABLE"
     },
