@@ -1907,7 +1907,7 @@
         "go_get_started": "Empezando",
         "has_wallet":
             "Cuando cree su primera cuenta de DBXChain, también se creará automáticamente una billetera local DBXChain y se almacenará en su navegador. Esta billetera local está encriptada con su contraseña, y contendrá cualquier clave privada que pertenezca a sus cuentas. ¡Es importante que se tome el tiempo para hacer una copia de seguridad de esta billetera una vez creada!",
-        "import_20_notice1": "Importar su BACKUP BTS 2.0+ primero",
+        "import_20_notice1": "Importar su BACKUP DBX 2.0+ primero",
         "import_20_notice2": "(si lo tiene)",
         "import_backup": "Importar Backup",
         "import_backup_choose":
