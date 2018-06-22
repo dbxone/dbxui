@@ -1877,7 +1877,7 @@
         "go_get_started": "Getting Started",
         "has_wallet":
             "dbxchain hesabı açtığınızda cüzdanınızın kontrolü tamamen size aittir. Bir başka kişi sizin cüzdanınızı kontrol edemez. Cüzdana erişim için gerekli olan TekAnahtar bilgisayarınızda şifreli olarak saklanır.",
-        "import_20_notice1": "İlk önce BTS 2.0+ YEDEĞİNİZİ içeri aktarın ",
+        "import_20_notice1": "İlk önce DBX 2.0+ YEDEĞİNİZİ içeri aktarın ",
         "import_20_notice2": "(eğer varsa)",
         "import_backup": "Yedekten geri yükle",
         "import_backup_choose":
