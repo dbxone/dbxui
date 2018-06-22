@@ -1913,7 +1913,7 @@
         "import_backup_choose":
             "Seleccione su archivo de copia de seguridad en el cuadro de diálogo a continuación. Esto es completamente seguro ya que el archivo no se carga en ninguna parte y nunca abandona su navegador.",
         "import_balance": "Importar balance(s)",
-        "import_bts": "Importar a BTS 0.9.3c exportar llave",
+        "import_bts": "Importar a DBX 0.9.3c exportar llave",
         "import_bts1": "Importar desde DBXChain 0.9.3c",
         "import_key_success": "Exitosamente importados %(count)s keys.",
         "import_keys": "Importar Llaves",
