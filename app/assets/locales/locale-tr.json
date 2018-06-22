@@ -1876,7 +1876,7 @@
         "generated": "Generated password",
         "go_get_started": "Getting Started",
         "has_wallet":
-            "Bitshares hesabı açtığınızda cüzdanınızın kontrolü tamamen size aittir. Bir başka kişi sizin cüzdanınızı kontrol edemez. Cüzdana erişim için gerekli olan TekAnahtar bilgisayarınızda şifreli olarak saklanır.",
+            "dbxchain hesabı açtığınızda cüzdanınızın kontrolü tamamen size aittir. Bir başka kişi sizin cüzdanınızı kontrol edemez. Cüzdana erişim için gerekli olan TekAnahtar bilgisayarınızda şifreli olarak saklanır.",
         "import_20_notice1": "İlk önce BTS 2.0+ YEDEĞİNİZİ içeri aktarın ",
         "import_20_notice2": "(eğer varsa)",
         "import_backup": "Yedekten geri yükle",
