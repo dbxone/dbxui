@@ -8,7 +8,7 @@
 
 /*
 * ./bloom.dat is from bitshares/graphene/programs/genesis_util/create_bloom_filter.py
-* The bloom filter was created with a genesis containing BTS prefixed keys.  Create
+* The bloom filter was created with a genesis containing DBX prefixed keys.  Create
 * or dowload this file first.
 */
 
