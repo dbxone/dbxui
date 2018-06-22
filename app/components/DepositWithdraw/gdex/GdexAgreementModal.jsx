@@ -435,7 +435,7 @@ class GdexAgreementModal extends React.Component {
                             6. There are risk in both Internet and dbxchain,
                             include but not limit to failure for software,
                             hardware to connect to Internet, security risk for
-                            Bitshares accounting system. As the availability and
+                            dbxchain accounting system. As the availability and
                             reliability of Internet and Bitshares are not under
                             our control, we do not undertake obligations for the
                             loss caused by the risks mentioned above.
