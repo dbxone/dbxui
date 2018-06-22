@@ -2001,7 +2001,7 @@
             "<li>Birden fazla sayıda hesap</li><li>Yedekleme dosyası zorunlu</li><li>Yüksek güvenlik</li>",
         "wallet_move":
             "Cüzdan yedekleme dosyalarınızla ya da hesabınıza ait bilgilerinizle dijital varlıklarınıza başka bir bilgisayardan da erişim sağlayabilirsiniz.",
-        "wallet_new": "Bitshares'e Hoş Geldiniz",
+        "wallet_new": "dbxchain'e Hoş Geldiniz",
         "wallet_password":
             "Şifrenizi kullanarak hesabınıza başka yerlerden erişim sağlayabilirsiniz."
     },
