@@ -4,4 +4,4 @@ dbxchain hesabınıza bir başkasından ya da bir borsadan BTS gönderimi için,
 
 [# deposit-short]
 ### Kripto para yatır/çek
-Başka blokzincirlerinden dbxchain hesabınıza (ör. BTC gibi) "coin" aktarmak için ya da TL, dolar gibi fiat para birimleriyle Bitshares'de işlem yapabilmek için lütfen aşağıdan bir transfer hizmet sağlayıcısı seçin.
+Başka blokzincirlerinden dbxchain hesabınıza (ör. BTC gibi) "coin" aktarmak için ya da TL, dolar gibi fiat para birimleriyle dbxchain'de işlem yapabilmek için lütfen aşağıdan bir transfer hizmet sağlayıcısı seçin.
