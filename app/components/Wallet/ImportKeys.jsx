@@ -329,7 +329,7 @@ class ImportKeys extends Component {
                 }
             }
             if (!encrypted_brainkey)
-                throw "Please use a BTS 1.0 wallet_export_keys file instead";
+                throw "Please use a DBX 1.0 wallet_export_keys file instead";
 
             if (!password_checksum)
                 throw file.name + " is missing password_checksum";
