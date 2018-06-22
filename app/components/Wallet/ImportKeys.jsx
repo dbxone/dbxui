@@ -159,7 +159,7 @@ class ImportKeys extends Component {
             throw e.message || e;
         }
 
-        // BTS 1.0 wallets may have a lot of generated but unused keys or spent TITAN addresses making
+        // DBX 1.0 wallets may have a lot of generated but unused keys or spent TITAN addresses making
         // wallets so large it is was not possible to use the JavaScript wallets with them.
 
         let genesis_filter = new GenesisFilter();
