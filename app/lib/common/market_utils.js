@@ -259,7 +259,7 @@ const MarketUtils = {
                 value = order.debt / quotePrecision;
                 amount = this.limitByPrecision(value / price.full, base);
             } else {
-                // Price in DBX/USD, amount should be in USD, value should be in BTS, debt is in USD
+                // Price in DBX/USD, amount should be in USD, value should be in DBX, debt is in USD
                 // buy is in USD, sell is in BTS
                 // quote is USD, base is BTS
 
