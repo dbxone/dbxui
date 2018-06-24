@@ -88,7 +88,7 @@ class Footer extends React.Component {
 
         if (hintData.length == 0) {
             window.open(
-                "http://docs.bitshares.org/bitshares/user/index.html",
+                "#",
                 "_blank"
             );
         } else {

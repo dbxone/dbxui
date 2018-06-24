@@ -359,6 +359,7 @@ class App extends React.Component {
                                 />
 
                                 {/* Wallet backup/restore routes */}
+				{/*
                                 <Route
                                     path="/wallet"
                                     component={WalletManager}
@@ -372,7 +373,6 @@ class App extends React.Component {
                                     component={ExistingAccount}
                                 />
 
-                                {/* Help routes */}
                                 <Route exact path="/help" component={Help} />
                                 <Route
                                     exact
@@ -389,6 +389,7 @@ class App extends React.Component {
                                     path="/help/:path1/:path2/:path3"
                                     component={Help}
                                 />
+				*/}
                                 <Route path="*" component={Page404} />
                             </Switch>
                         </div>

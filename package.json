@@ -1,6 +1,6 @@
 {
-    "name": "DBXChain2-light",
-    "version": "2.0.180615",
+    "name": "DBXChain",
+    "version": "0.0.1",
     "description": "Advanced wallet interface for the DBXChain financial blockchain.",
     "homepage": "https://github.com/bitshares/bitshares-ui",
     "author": "Sigve Kvalsvik <kvalsvik.crypto@gmail.com>",

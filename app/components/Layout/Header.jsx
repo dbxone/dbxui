@@ -629,30 +629,6 @@ class Header extends React.Component {
                         />
                     </li>
                     <li
-                        onClick={this._onNavigate.bind(
-                            this,
-                            "/settings/access"
-                        )}
-                    >
-                        <Translate
-                            content="settings.access"
-                            component="div"
-                            className="table-cell"
-                        />
-                    </li>
-                    <li
-                        onClick={this._onNavigate.bind(
-                            this,
-                            "/settings/faucet_address"
-                        )}
-                    >
-                        <Translate
-                            content="settings.faucet_address"
-                            component="div"
-                            className="table-cell"
-                        />
-                    </li>
-                    <li
                         onClick={this._onNavigate.bind(this, "/settings/reset")}
                     >
                         <Translate

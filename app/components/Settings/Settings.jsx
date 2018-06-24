@@ -94,10 +94,7 @@ class Settings extends React.Component {
             "accounts",
             "password",
             "backup",
-            "restore",
-            "access",
-            "faucet_address",
-            "reset"
+            "restore"
         ];
 
         if (props.settings.get("passwordLogin")) {

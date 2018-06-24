@@ -70,15 +70,15 @@ class SettingsStore {
         let defaults = {
             locale: [
                 "en",
-                "zh",
-                "fr",
-                "ko",
-                "de",
-                "es",
-                "it",
-                "tr",
-                "ru",
-                "ja"
+                "zh"
+//                "fr",
+//                "ko",
+//                "de",
+//                "es",
+//                "it",
+//                "tr",
+//                "ru",
+//                "ja"
             ],
             apiServer: apiServer,
             unit: [CORE_ASSET, "USD", "CNY", "BTC", "EUR", "GBP"],

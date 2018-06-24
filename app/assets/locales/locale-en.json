@@ -54,7 +54,7 @@
         "in_open": "This is the amount of %(asset)s you have in open orders.",
         "in_open_value":
             "This is the estimated value of the %(asset)s you have in open orders.",
-        "intro_text_1": "Your Decentralized Exchange",
+        "intro_text_1": "",
         "intro_text_2":
             "<b>The DEX</b> is inherently decentralized, enabling you to trade the DBXChain core token (DBX) and a range of trustless price-stable, market-pegged assets such as bitUSD, bitCNY, bitBTC, bitGold and more. These assets can all be traded with <b>zero</b> counter-party risk, putting you in total control of your funds.",
         "intro_text_3":
@@ -1095,15 +1095,7 @@
             "If you close your browser without backing up your wallet, you will lose this account permanently."
     },
     "languages": {
-        "de": "Deutsch",
         "en": "English",
-        "es": "Español",
-        "fr": "Français",
-        "it": "Italiano",
-        "ja": "日本語",
-        "ko": "한국어",
-        "ru": "Русский",
-        "tr": "Türkçe",
         "zh": "简体中文"
     },
     "markets": {
