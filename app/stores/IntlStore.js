@@ -2,12 +2,12 @@ import alt from "alt-instance";
 import IntlActions from "actions/IntlActions";
 import SettingsActions from "actions/SettingsActions";
 import counterpart from "counterpart";
-var locale_en = require("assets/locales/locale-en.json");
+var locale_zh = require("assets/locales/locale-zh.json");
 import ls from "common/localStorage";
 let ss = new ls("__graphene__");
 
-counterpart.registerTranslations("en", locale_en);
-counterpart.setFallbackLocale("en");
+counterpart.registerTranslations("zh", locale_zh);
+counterpart.setFallbackLocale("zh");
 
 import {addLocaleData} from "react-intl";
 
@@ -20,10 +20,10 @@ class IntlStore {
     constructor() {
         this.currentLocale = ss.has("settings_v3")
             ? ss.get("settings_v3").locale
-            : "en";
+            : "zh";
 
-        this.locales = ["en"];
-        this.localesObject = {en: locale_en};
+        this.locales = ["zh"];
+        this.localesObject = {zh: locale_zh};
 
         this.bindListeners({
             onSwitchLocale: IntlActions.switchLocale,
@@ -42,8 +42,8 @@ class IntlStore {
 
     onSwitchLocale({locale, localeData}) {
         switch (locale) {
-            case "en":
-                counterpart.registerTranslations("en", this.localesObject.en);
+            case "zh":
+                counterpart.registerTranslations("zh", this.localesObject.zh);
                 break;
 
             default:
@@ -62,7 +62,7 @@ class IntlStore {
     }
 
     onClearSettings() {
-        this.onSwitchLocale({locale: "en"});
+        this.onSwitchLocale({locale: "zh"});
     }
 }
 
