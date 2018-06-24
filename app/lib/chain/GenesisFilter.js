@@ -130,7 +130,7 @@ export default class GenesisFilter {
                             return;
                         }
                         var currentKey = keys.public_keys[k];
-                        if (/^GPH/.test(currentKey))
+                        if (/^DBX/.test(currentKey))
                             currentKey = "DBX" + currentKey.substring(3);
                         if (this.inGenesis(currentKey)) continue;
                         var addresses = key.addresses(currentKey, "DBX");

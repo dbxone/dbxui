@@ -75,7 +75,7 @@ fs.readFile('bloom_bitshares.dat', function (err, data) {
                 if( ! keys.public_keys) unsupportedJsonFormat()
                 var key = keys.public_keys[k]
 
-                if( /^GPH/.test(key) ) key = chainPrefix + key.substring(3)
+                if( /^DBX/.test(key) ) key = chainPrefix + key.substring(3)
                 if(in_bloom( key )) continue
                 var addresses = key_utils.addresses(key, chainPrefix)
                 var addy_found = false
