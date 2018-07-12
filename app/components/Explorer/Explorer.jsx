@@ -19,12 +19,6 @@ class Explorer extends React.Component {
                     link: "/explorer/blocks",
                     translate: "explorer.blocks.title",
                     content: BlocksContainer
-                },
-                {
-                    name: "accounts",
-                    link: "/explorer/accounts",
-                    translate: "explorer.accounts.title",
-                    content: AccountsContainer
                 }
             ]
         };
@@ -54,7 +48,6 @@ class Explorer extends React.Component {
                 defaultActiveTab={defaultActiveTab}
                 segmented={false}
                 setting="explorer-tabs"
-                className="account-tabs"
                 tabsClass="account-overview bordered-header content-block"
                 contentClass="tab-content padding"
             >

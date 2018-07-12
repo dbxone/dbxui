@@ -88,14 +88,7 @@ class Settings extends React.Component {
         if (props.deprecated) {
             return ["wallet", "backup"];
         }
-        let menuEntries = [
-            "general",
-            "wallet",
-            "accounts",
-            "password",
-            "backup",
-            "restore"
-        ];
+        let menuEntries = ["general"];
 
         if (props.settings.get("passwordLogin")) {
             menuEntries.splice(4, 1);

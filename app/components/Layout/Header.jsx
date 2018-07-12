@@ -561,82 +561,6 @@ class Header extends React.Component {
                             className="table-cell"
                         />
                     </li>
-                    {!this.props.settings.get("passwordLogin") && (
-                        <li
-                            onClick={this._onNavigate.bind(
-                                this,
-                                "/settings/wallet"
-                            )}
-                        >
-                            <Translate
-                                content="settings.wallet"
-                                component="div"
-                                className="table-cell"
-                            />
-                        </li>
-                    )}
-                    <li
-                        onClick={this._onNavigate.bind(
-                            this,
-                            "/settings/accounts"
-                        )}
-                    >
-                        <Translate
-                            content="settings.accounts"
-                            component="div"
-                            className="table-cell"
-                        />
-                    </li>
-
-                    {!this.props.settings.get("passwordLogin") && [
-                        <li
-                            key={"settings.password"}
-                            onClick={this._onNavigate.bind(
-                                this,
-                                "/settings/password"
-                            )}
-                        >
-                            <Translate
-                                content="settings.password"
-                                component="div"
-                                className="table-cell"
-                            />
-                        </li>,
-                        <li
-                            key={"settings.backup"}
-                            onClick={this._onNavigate.bind(
-                                this,
-                                "/settings/backup"
-                            )}
-                        >
-                            <Translate
-                                content="settings.backup"
-                                component="div"
-                                className="table-cell"
-                            />
-                        </li>
-                    ]}
-                    <li
-                        onClick={this._onNavigate.bind(
-                            this,
-                            "/settings/restore"
-                        )}
-                    >
-                        <Translate
-                            content="settings.restore"
-                            component="div"
-                            className="table-cell"
-                        />
-                    </li>
-                    <li
-                        onClick={this._onNavigate.bind(this, "/settings/reset")}
-                    >
-                        <Translate
-                            content="settings.reset"
-                            component="div"
-                            className="table-cell"
-                        />
-                    </li>
                 </ul>
             )
         };
@@ -726,41 +650,7 @@ class Header extends React.Component {
                                     </Link>
                                 </li>
                             )}
-                            <li>
-                                <a
-                                    style={{flexFlow: "row"}}
-                                    className={cnames(
-                                        active.indexOf("explorer") !== -1
-                                            ? null
-                                            : "column-hide-xs",
-                                        {
-                                            active:
-                                                active.indexOf("explorer") !==
-                                                -1
-                                        }
-                                    )}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        "/explorer/blocks"
-                                    )}
-                                >
-                                    <Icon
-                                        size="2x"
-                                        style={{
-                                            position: "relative",
-                                            top: 0,
-                                            left: -8
-                                        }}
-                                        name="server"
-                                        title="icons.server"
-                                    />
-                                    <Translate
-                                        className="column-hide-small"
-                                        component="span"
-                                        content="header.explorer"
-                                    />
-                                </a>
-                            </li>
+
                             {!!createAccountLink ? null : (
                                 <li className="column-hide-small">
                                     <a
@@ -887,113 +777,6 @@ class Header extends React.Component {
                                 }}
                             >
                                 <li
-                                    className="divider"
-                                    onClick={this._toggleLock.bind(this)}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="power"
-                                            title="icons.power"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate
-                                            content={`header.${
-                                                this.props.locked
-                                                    ? "unlock_short"
-                                                    : "lock_short"
-                                            }`}
-                                        />
-                                    </div>
-                                </li>
-
-                                {this.props.locked ? (
-                                    <li
-                                        className={cnames({
-                                            active:
-                                                active.indexOf(
-                                                    `/create-account/${
-                                                        !passwordLogin
-                                                            ? "wallet"
-                                                            : "password"
-                                                    }`
-                                                ) !== -1
-                                        })}
-                                        onClick={this._onNavigate.bind(
-                                            this,
-                                            `/create-account/${
-                                                !passwordLogin
-                                                    ? "wallet"
-                                                    : "password"
-                                            }`
-                                        )}
-                                    >
-                                        <div className="table-cell">
-                                            <Icon
-                                                size="2x"
-                                                name="user"
-                                                title="icons.user.create_account"
-                                            />
-                                        </div>
-                                        <div className="table-cell">
-                                            <Translate content="header.create_account" />
-                                        </div>
-                                    </li>
-                                ) : null}
-
-                                {!this.props.locked ? (
-                                    <li
-                                        className={cnames({
-                                            active:
-                                                active.indexOf("/account") !==
-                                                -1
-                                        })}
-                                        onClick={this._onNavigate.bind(
-                                            this,
-                                            `/account/${currentAccount}`
-                                        )}
-                                    >
-                                        <div className="table-cell">
-                                            <Icon
-                                                size="2x"
-                                                name="dashboard"
-                                                title="icons.dasboard"
-                                            />
-                                        </div>
-                                        <div className="table-cell">
-                                            <Translate content="header.dashboard" />
-                                        </div>
-                                    </li>
-                                ) : null}
-
-                                <li
-                                    className={cnames(
-                                        {
-                                            active:
-                                                active.indexOf("/market/") !==
-                                                -1
-                                        },
-                                        "column-show-small"
-                                    )}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        tradeUrl
-                                    )}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="trade"
-                                            title="icons.trade.exchange"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate content="header.exchange" />
-                                    </div>
-                                </li>
-
-                                <li
                                     className={cnames(
                                         {
                                             active:
@@ -1016,28 +799,6 @@ class Header extends React.Component {
                                     </div>
                                     <div className="table-cell">
                                         <Translate content="header.explorer" />
-                                    </div>
-                                </li>
-
-                                <li
-                                    className={cnames({
-                                        active:
-                                            active.indexOf("/transfer") !== -1
-                                    })}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        "/transfer"
-                                    )}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="transfer"
-                                            title="icons.transfer"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate content="header.payments_legacy" />
                                     </div>
                                 </li>
 
@@ -1095,60 +856,6 @@ class Header extends React.Component {
                                         <Translate content="header.settings" />{" "}
                                     </div>
                                 </li>
-
-                                {isMyAccount ? (
-                                    <li
-                                        className={cnames({
-                                            active:
-                                                active.indexOf("/vesting") !==
-                                                -1
-                                        })}
-                                        onClick={this._onNavigate.bind(
-                                            this,
-                                            `/account/${currentAccount}/vesting`
-                                        )}
-                                    >
-                                        <div className="table-cell">
-                                            <Icon
-                                                size="2x"
-                                                name="hourglass"
-                                                title="icons.hourglass"
-                                            />
-                                        </div>
-                                        <div className="table-cell">
-                                            <Translate content="account.vesting.title" />
-                                        </div>
-                                    </li>
-                                ) : null}
-
-                                {!hasLocalWallet && (
-                                    <li
-                                        className={cnames(
-                                            {
-                                                active:
-                                                    active.indexOf(
-                                                        "/accounts"
-                                                    ) !== -1
-                                            },
-                                            "divider"
-                                        )}
-                                        onClick={this._onNavigate.bind(
-                                            this,
-                                            "/accounts"
-                                        )}
-                                    >
-                                        <div className="table-cell">
-                                            <Icon
-                                                size="2x"
-                                                name="folder"
-                                                title="icons.folder"
-                                            />
-                                        </div>
-                                        <div className="table-cell">
-                                            <Translate content="explorer.accounts.title" />
-                                        </div>
-                                    </li>
-                                )}
                             </ul>
                         )}
                     </div>
@@ -1177,39 +884,42 @@ class Header extends React.Component {
     }
 }
 
-export default connect(Header, {
-    listenTo() {
-        return [
-            AccountStore,
-            WalletUnlockStore,
-            WalletManagerStore,
-            SettingsStore,
-            GatewayStore
-        ];
-    },
-    getProps() {
-        const chainID = Apis.instance().chain_id;
-        return {
-            backedCoins: GatewayStore.getState().backedCoins,
-            myActiveAccounts: AccountStore.getState().myActiveAccounts,
-            currentAccount:
-                AccountStore.getState().currentAccount ||
-                AccountStore.getState().passwordAccount,
-            passwordAccount: AccountStore.getState().passwordAccount,
-            locked: WalletUnlockStore.getState().locked,
-            current_wallet: WalletManagerStore.getState().current_wallet,
-            lastMarket: SettingsStore.getState().viewSettings.get(
-                `lastMarket${chainID ? "_" + chainID.substr(0, 8) : ""}`
-            ),
-            starredAccounts: AccountStore.getState().starredAccounts,
-            passwordLogin: SettingsStore.getState().settings.get(
-                "passwordLogin"
-            ),
-            currentLocale: SettingsStore.getState().settings.get("locale"),
-            hiddenAssets: SettingsStore.getState().hiddenAssets,
-            settings: SettingsStore.getState().settings,
-            locales: SettingsStore.getState().defaults.locale,
-            contacts: AccountStore.getState().accountContacts
-        };
+export default connect(
+    Header,
+    {
+        listenTo() {
+            return [
+                AccountStore,
+                WalletUnlockStore,
+                WalletManagerStore,
+                SettingsStore,
+                GatewayStore
+            ];
+        },
+        getProps() {
+            const chainID = Apis.instance().chain_id;
+            return {
+                backedCoins: GatewayStore.getState().backedCoins,
+                myActiveAccounts: AccountStore.getState().myActiveAccounts,
+                currentAccount:
+                    AccountStore.getState().currentAccount ||
+                    AccountStore.getState().passwordAccount,
+                passwordAccount: AccountStore.getState().passwordAccount,
+                locked: WalletUnlockStore.getState().locked,
+                current_wallet: WalletManagerStore.getState().current_wallet,
+                lastMarket: SettingsStore.getState().viewSettings.get(
+                    `lastMarket${chainID ? "_" + chainID.substr(0, 8) : ""}`
+                ),
+                starredAccounts: AccountStore.getState().starredAccounts,
+                passwordLogin: SettingsStore.getState().settings.get(
+                    "passwordLogin"
+                ),
+                currentLocale: SettingsStore.getState().settings.get("locale"),
+                hiddenAssets: SettingsStore.getState().hiddenAssets,
+                settings: SettingsStore.getState().settings,
+                locales: SettingsStore.getState().defaults.locale,
+                contacts: AccountStore.getState().accountContacts
+            };
+        }
     }
-});
+);
