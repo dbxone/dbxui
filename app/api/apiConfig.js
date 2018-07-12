@@ -72,9 +72,9 @@ export const settingsAPIs = {
             url: "wss://fake.automatic-selection.com",
             location: {translate: "settings.api_closest"}
         },
-        {url: "ws://47.94.107.109:38090", location: "Locally hosted"}
+        {url: "ws://192.168.3.117:38090", location: "Locally hosted"}
     ],
-    DEFAULT_FAUCET: "http://47.94.107.109:3000", // 2017-12-infrastructure worker proposal
+    DEFAULT_FAUCET: "http://192.168.3.117:3000", // 2017-12-infrastructure worker proposal
     TESTNET_FAUCET: "https://faucet.testnet.bitshares.eu",
     RPC_URL: "https://openledger.info/api/"
 };

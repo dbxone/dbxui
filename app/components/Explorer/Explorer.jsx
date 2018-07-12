@@ -1,12 +1,6 @@
 import React from "react";
 import {Tabs, Tab} from "../Utility/Tabs";
-import Witnesses from "./Witnesses";
-import CommitteeMembers from "./CommitteeMembers";
-import FeesContainer from "../Blockchain/FeesContainer";
 import BlocksContainer from "./BlocksContainer";
-import AssetsContainer from "./AssetsContainer";
-import AccountsContainer from "./AccountsContainer";
-import MarketsContainer from "../Exchange/MarketsContainer";
 
 class Explorer extends React.Component {
     constructor(props) {
@@ -19,12 +13,6 @@ class Explorer extends React.Component {
                     link: "/explorer/blocks",
                     translate: "explorer.blocks.title",
                     content: BlocksContainer
-                },
-                {
-                    name: "accounts",
-                    link: "/explorer/accounts",
-                    translate: "explorer.accounts.title",
-                    content: AccountsContainer
                 }
             ]
         };
@@ -54,7 +42,6 @@ class Explorer extends React.Component {
                 defaultActiveTab={defaultActiveTab}
                 segmented={false}
                 setting="explorer-tabs"
-                className="account-tabs"
                 tabsClass="account-overview bordered-header content-block"
                 contentClass="tab-content padding"
             >

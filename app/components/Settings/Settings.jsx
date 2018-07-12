@@ -5,13 +5,6 @@ import Translate from "react-translate-component";
 import SettingsActions from "actions/SettingsActions";
 import WebsocketAddModal from "./WebsocketAddModal";
 import SettingsEntry from "./SettingsEntry";
-import AccountsSettings from "./AccountsSettings";
-import WalletSettings from "./WalletSettings";
-import PasswordSettings from "./PasswordSettings";
-import RestoreSettings from "./RestoreSettings";
-import ResetSettings from "./ResetSettings";
-import BackupSettings from "./BackupSettings";
-import AccessSettings from "./AccessSettings";
 import {set} from "lodash-es";
 
 class Settings extends React.Component {
@@ -30,17 +23,7 @@ class Settings extends React.Component {
             activeSetting,
             menuEntries,
             settingEntries: {
-                general: [
-                    "locale",
-                    "unit",
-                    "browser_notifications",
-                    "showSettles",
-                    "walletLockTimeout",
-                    "themes",
-                    "showAssetPercent",
-                    "passwordLogin",
-                    "reset"
-                ],
+                general: ["locale", "themes"],
                 access: ["apiServer", "faucet_address"]
             }
         };
@@ -88,14 +71,7 @@ class Settings extends React.Component {
         if (props.deprecated) {
             return ["wallet", "backup"];
         }
-        let menuEntries = [
-            "general",
-            "wallet",
-            "accounts",
-            "password",
-            "backup",
-            "restore"
-        ];
+        let menuEntries = ["general"];
 
         if (props.settings.get("passwordLogin")) {
             menuEntries.splice(4, 1);
@@ -249,58 +225,6 @@ class Settings extends React.Component {
         let activeEntry = menuEntries[activeSetting] || menuEntries[0];
 
         switch (activeEntry) {
-            case "accounts":
-                entries = <AccountsSettings />;
-                break;
-
-            case "wallet":
-                entries = <WalletSettings {...this.props} />;
-                break;
-
-            case "password":
-                entries = <PasswordSettings />;
-                break;
-
-            case "backup":
-                entries = <BackupSettings />;
-                break;
-
-            case "restore":
-                entries = (
-                    <RestoreSettings
-                        passwordLogin={this.props.settings.get("passwordLogin")}
-                    />
-                );
-                break;
-
-            case "access":
-                entries = (
-                    <AccessSettings
-                        faucet={settings.get("faucet_address")}
-                        nodes={defaults.apiServer}
-                        onChange={this._onChangeSetting.bind(this)}
-                        triggerModal={this.triggerModal.bind(this)}
-                    />
-                );
-                break;
-            case "faucet_address":
-                entries = (
-                    <input
-                        type="text"
-                        className="settings-input"
-                        defaultValue={settings.get("faucet_address")}
-                        onChange={this._onChangeSetting.bind(
-                            this,
-                            "faucet_address"
-                        )}
-                    />
-                );
-                break;
-
-            case "reset":
-                entries = <ResetSettings />;
-                break;
-
             default:
                 entries = settingEntries[activeEntry].map(setting => {
                     return (

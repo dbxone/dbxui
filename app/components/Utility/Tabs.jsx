@@ -210,48 +210,6 @@ class Tabs extends React.Component {
                     this.props.className
                 )}
             >
-                <div className="service-selector">
-                    <ul
-                        style={style}
-                        className={cnames("button-group no-margin", tabsClass, {
-                            segmented
-                        })}
-                    >
-                        {collapseTabs ? (
-                            <li
-                                style={{
-                                    paddingLeft: 10,
-                                    paddingRight: 10,
-                                    minWidth: "15rem"
-                                }}
-                            >
-                                <select
-                                    value={this.state.activeTab}
-                                    style={{marginTop: 10, marginBottom: 10}}
-                                    className="dbx-select"
-                                    onChange={e => {
-                                        let ind = parseInt(e.target.value, 10);
-                                        this._changeTab(
-                                            ind,
-                                            e.target[ind].attributes[
-                                                "data-is-link-to"
-                                            ].value
-                                        );
-                                    }}
-                                >
-                                    {tabs}
-                                </select>
-                            </li>
-                        ) : (
-                            tabs
-                        )}
-                        {this.props.actionButtons ? (
-                            <li className="tabs-action-buttons">
-                                {this.props.actionButtons}
-                            </li>
-                        ) : null}
-                    </ul>
-                </div>
                 <div className={cnames("tab-content", contentClass)}>
                     {activeContent}
                 </div>
@@ -260,14 +218,17 @@ class Tabs extends React.Component {
     }
 }
 
-Tabs = connect(Tabs, {
-    listenTo() {
-        return [SettingsStore];
-    },
-    getProps() {
-        return {viewSettings: SettingsStore.getState().viewSettings};
+Tabs = connect(
+    Tabs,
+    {
+        listenTo() {
+            return [SettingsStore];
+        },
+        getProps() {
+            return {viewSettings: SettingsStore.getState().viewSettings};
+        }
     }
-});
+);
 
 Tabs = withRouter(Tabs);
 
