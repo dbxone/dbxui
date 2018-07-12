@@ -298,51 +298,13 @@ class App extends React.Component {
                     <div id="mainContainer" className="grid-block">
                         <div className="grid-block vertical">
                             <Switch>
-                                <Route
-                                    path="/"
-                                    exact
-                                    component={DashboardPage}
-                                />
-                                <Route
-                                    path="/account/:account_name"
-                                    component={AccountPage}
-                                />
-                                <Route
-                                    path="/accounts"
-                                    component={DashboardAccountsOnly}
-                                />
-                                <Route
-                                    path="/market/:marketID"
-                                    component={Exchange}
-                                />
+                                <Route path="/" exact component={Explorer} />
                                 <Route
                                     path="/settings/:tab"
                                     component={Settings}
                                 />
                                 <Route path="/settings" component={Settings} />
 
-                                <Route
-                                    path="/transfer"
-                                    exact
-                                    component={Transfer}
-                                />
-                                <Route
-                                    path="/deposit-withdraw"
-                                    exact
-                                    component={AccountDepositWithdraw}
-                                />
-                                <Route
-                                    path="/create-account"
-                                    component={LoginSelector}
-                                />
-                                <Route path="/news" exact component={News} />
-
-                                {/* Explorer routes */}
-                                <Route
-                                    path="/explorer/:tab"
-                                    component={Explorer}
-                                />
-                                <Route path="/explorer" component={Explorer} />
                                 <Route
                                     path="/asset/:symbol"
                                     component={Asset}
@@ -358,38 +320,6 @@ class App extends React.Component {
                                     component={Block}
                                 />
 
-                                {/* Wallet backup/restore routes */}
-				{/*
-                                <Route
-                                    path="/wallet"
-                                    component={WalletManager}
-                                />
-                                <Route
-                                    path="/create-wallet-brainkey"
-                                    component={CreateWalletFromBrainkey}
-                                />
-                                <Route
-                                    path="/existing-account"
-                                    component={ExistingAccount}
-                                />
-
-                                <Route exact path="/help" component={Help} />
-                                <Route
-                                    exact
-                                    path="/help/:path1"
-                                    component={Help}
-                                />
-                                <Route
-                                    exact
-                                    path="/help/:path1/:path2"
-                                    component={Help}
-                                />
-                                <Route
-                                    exact
-                                    path="/help/:path1/:path2/:path3"
-                                    component={Help}
-                                />
-				*/}
                                 <Route path="*" component={Page404} />
                             </Switch>
                         </div>
