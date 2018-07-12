@@ -1,7 +1,6 @@
 import React from "react";
 import counterpart from "counterpart";
 import Translate from "react-translate-component";
-import SettingsActions from "actions/SettingsActions";
 import AssetName from "../Utility/AssetName";
 import Notify from "notifyjs";
 export default class SettingsEntry extends React.Component {

@@ -1,12 +1,6 @@
 import React from "react";
 import {Tabs, Tab} from "../Utility/Tabs";
-import Witnesses from "./Witnesses";
-import CommitteeMembers from "./CommitteeMembers";
-import FeesContainer from "../Blockchain/FeesContainer";
 import BlocksContainer from "./BlocksContainer";
-import AssetsContainer from "./AssetsContainer";
-import AccountsContainer from "./AccountsContainer";
-import MarketsContainer from "../Exchange/MarketsContainer";
 
 class Explorer extends React.Component {
     constructor(props) {
