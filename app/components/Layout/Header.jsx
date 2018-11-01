@@ -1044,28 +1044,6 @@ class Header extends React.Component {
                                 </li>
 
                                 <li
-                                    className={cnames({
-                                        active:
-                                            active.indexOf("/transfer") !== -1
-                                    })}
-                                    onClick={this._onNavigate.bind(
-                                        this,
-                                        "/transfer"
-                                    )}
-                                >
-                                    <div className="table-cell">
-                                        <Icon
-                                            size="2x"
-                                            name="transfer"
-                                            title="icons.transfer"
-                                        />
-                                    </div>
-                                    <div className="table-cell">
-                                        <Translate content="header.payments_legacy" />
-                                    </div>
-                                </li>
-
-                                <li
                                     className={cnames(
                                         {
                                             active:
@@ -1201,39 +1179,42 @@ class Header extends React.Component {
     }
 }
 
-export default connect(Header, {
-    listenTo() {
-        return [
-            AccountStore,
-            WalletUnlockStore,
-            WalletManagerStore,
-            SettingsStore,
-            GatewayStore
-        ];
-    },
-    getProps() {
-        const chainID = Apis.instance().chain_id;
-        return {
-            backedCoins: GatewayStore.getState().backedCoins,
-            myActiveAccounts: AccountStore.getState().myActiveAccounts,
-            currentAccount:
-                AccountStore.getState().currentAccount ||
-                AccountStore.getState().passwordAccount,
-            passwordAccount: AccountStore.getState().passwordAccount,
-            locked: WalletUnlockStore.getState().locked,
-            current_wallet: WalletManagerStore.getState().current_wallet,
-            lastMarket: SettingsStore.getState().viewSettings.get(
-                `lastMarket${chainID ? "_" + chainID.substr(0, 8) : ""}`
-            ),
-            starredAccounts: AccountStore.getState().starredAccounts,
-            passwordLogin: SettingsStore.getState().settings.get(
-                "passwordLogin"
-            ),
-            currentLocale: SettingsStore.getState().settings.get("locale"),
-            hiddenAssets: SettingsStore.getState().hiddenAssets,
-            settings: SettingsStore.getState().settings,
-            locales: SettingsStore.getState().defaults.locale,
-            contacts: AccountStore.getState().accountContacts
-        };
+export default connect(
+    Header,
+    {
+        listenTo() {
+            return [
+                AccountStore,
+                WalletUnlockStore,
+                WalletManagerStore,
+                SettingsStore,
+                GatewayStore
+            ];
+        },
+        getProps() {
+            const chainID = Apis.instance().chain_id;
+            return {
+                backedCoins: GatewayStore.getState().backedCoins,
+                myActiveAccounts: AccountStore.getState().myActiveAccounts,
+                currentAccount:
+                    AccountStore.getState().currentAccount ||
+                    AccountStore.getState().passwordAccount,
+                passwordAccount: AccountStore.getState().passwordAccount,
+                locked: WalletUnlockStore.getState().locked,
+                current_wallet: WalletManagerStore.getState().current_wallet,
+                lastMarket: SettingsStore.getState().viewSettings.get(
+                    `lastMarket${chainID ? "_" + chainID.substr(0, 8) : ""}`
+                ),
+                starredAccounts: AccountStore.getState().starredAccounts,
+                passwordLogin: SettingsStore.getState().settings.get(
+                    "passwordLogin"
+                ),
+                currentLocale: SettingsStore.getState().settings.get("locale"),
+                hiddenAssets: SettingsStore.getState().hiddenAssets,
+                settings: SettingsStore.getState().settings,
+                locales: SettingsStore.getState().defaults.locale,
+                contacts: AccountStore.getState().accountContacts
+            };
+        }
     }
-});
+);
