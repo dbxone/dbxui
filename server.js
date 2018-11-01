@@ -55,10 +55,10 @@ var options = {
     cert: fs.readFileSync("./ssl/server.crt")
 };
 
-http.createServer(app).listen(8080);
-https.createServer(options, app).listen(8085);
+http.createServer(app).listen(18080);
+https.createServer(options, app).listen(18085);
 
-console.log("Listening at http://localhost:8080/ or https://localhost:8085/");
+console.log("Listening at http://localhost:18080/ or https://localhost:18085/");
 // new WebpackDevServer(compiler, {
 //     publicPath: config.output.publicPath,
 //     hot: true,
