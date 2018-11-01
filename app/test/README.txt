@@ -34,7 +34,7 @@ dbg_make_uia nathan MORE
 issue_asset nathan 2323231232 TEST "" true
 issue_asset nathan 2323231232 MORE "" true
 >>> list_account_balances "1.2.15"
->>> transfer "1.2.15" "1.2.0" 1 "GPH" "memo" true
+>>> transfer "1.2.15" "1.2.0" 1 "DBX" "memo" true
 
 In these unit tests the "import_key" step is not necessary because the
 genesis key is saved in the source code.

@@ -32,7 +32,6 @@ class Settings extends React.Component {
             settingEntries: {
                 general: [
                     "locale",
-                    "unit",
                     "browser_notifications",
                     "showSettles",
                     "walletLockTimeout",
@@ -88,17 +87,7 @@ class Settings extends React.Component {
         if (props.deprecated) {
             return ["wallet", "backup"];
         }
-        let menuEntries = [
-            "general",
-            "wallet",
-            "accounts",
-            "password",
-            "backup",
-            "restore",
-            "access",
-            "faucet_address",
-            "reset"
-        ];
+        let menuEntries = ["general"];
 
         if (props.settings.get("passwordLogin")) {
             menuEntries.splice(4, 1);

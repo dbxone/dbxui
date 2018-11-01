@@ -180,7 +180,7 @@ class RouterTransitioner {
             url: connectionString,
             urls: urls,
             closeCb: this._onConnectionClose.bind(this),
-            optionalApis: {enableOrders: true},
+            optionalApis: {enableOrders: false},
             urlChangeCallback: url => {
                 console.log("fallback to new url:", url);
                 SettingsActions.changeSetting({
@@ -453,7 +453,7 @@ class RouterTransitioner {
     _attemptReconnect(resolve, reject) {
         this._oldChain = "old";
         Apis.reset(this._connectionManager.url, true, undefined, {
-            enableOrders: true
+            enableOrders: false
         }).then(instance => {
             instance.init_promise
                 .then(this._onConnect.bind(this, resolve, reject))
