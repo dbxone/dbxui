@@ -313,12 +313,42 @@ class Footer extends React.Component {
                                         </span>
                                     </div>
                                 </div>
+                                <div className="grid-block">
+                                    <div
+                                        className="introjs-launcher"
+                                        onClick={() => {
+                                            this.launchIntroJS();
+                                        }}
+                                    >
+                                        <Translate content="global.help" />
+                                    </div>
+                                </div>
                             </div>
                         ) : (
                             <div className="grid-block shrink">
                                 <Translate content="footer.loading" />
                             </div>
                         )}
+                    </div>
+                </div>
+                <div
+                    onMouseEnter={() => {
+                        this.setState({showNodesPopup: true});
+                    }}
+                    onMouseLeave={() => {
+                        this.setState({showNodesPopup: false});
+                    }}
+                    className="node-access-popup"
+                    style={{display: this.state.showNodesPopup ? "" : "none"}}
+                >
+                    <AccessSettings
+                        nodes={this.props.defaults.apiServer}
+                        popup={true}
+                    />
+                    <div style={{paddingTop: 15}}>
+                        <a onClick={this.onAccess.bind(this)}>
+                            <Translate content="footer.advanced_settings" />
+                        </a>
                     </div>
                 </div>
                 <div

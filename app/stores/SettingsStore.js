@@ -68,18 +68,7 @@ class SettingsStore {
         let apiServer = settingsAPIs.WS_NODE_LIST;
 
         let defaults = {
-            locale: [
-                "en",
-                "zh"
-//                "fr",
-//                "ko",
-//                "de",
-//                "es",
-//                "it",
-//                "tr",
-//                "ru",
-//                "ja"
-            ],
+            locale: ["en", "zh"],
             apiServer: apiServer,
             unit: [CORE_ASSET, "USD", "CNY", "BTC", "EUR", "GBP"],
             showSettles: [{translate: "yes"}, {translate: "no"}],

@@ -548,7 +548,8 @@ class SendModal extends React.Component {
                         <Translate
                             component="span"
                             content="transfer.available"
-                        />:{" "}
+                        />
+                        :{" "}
                         <span
                             className={_error}
                             style={{
@@ -622,281 +623,7 @@ class SendModal extends React.Component {
                     id={this.props.id}
                     overlay={true}
                     onClose={this.onClose.bind(this, false)}
-                >
-                    <div className="grid-block vertical no-overflow">
-                        <div
-                            className="content-block"
-                            style={{textAlign: "center", textTransform: "none"}}
-                        >
-                            {!propose ? (
-                                <div
-                                    style={{
-                                        fontSize: "1.8rem",
-                                        fontFamily:
-                                            "Roboto-Medium, arial, sans-serif"
-                                    }}
-                                >
-                                    <Translate
-                                        unsafe
-                                        content="modal.send.header"
-                                        with={{fromName: from_name}}
-                                    />
-                                </div>
-                            ) : (
-                                <div
-                                    style={{
-                                        fontSize: "1.8rem",
-                                        fontFamily:
-                                            "Roboto-Medium, arial, sans-serif"
-                                    }}
-                                >
-                                    <Translate
-                                        unsafe
-                                        content="modal.send.header_propose"
-                                        with={{fromName: from_name}}
-                                    />
-                                </div>
-                            )}
-                            <div
-                                style={{
-                                    marginTop: 10,
-                                    fontSize: "0.9rem",
-                                    marginLeft: "auto",
-                                    marginRight: "auto"
-                                }}
-                            >
-                                <p>
-                                    <Translate content="transfer.header_subheader" />
-                                </p>
-                            </div>
-                        </div>
-                        {this.state.open ? (
-                            <form noValidate>
-                                <div>
-                                    {/* T O */}
-                                    <div className="content-block">
-                                        <AccountSelector
-                                            label="transfer.to"
-                                            accountName={to_name}
-                                            account={to_account}
-                                            onChange={this.toChanged.bind(this)}
-                                            onAccountChanged={this.onToAccountChanged.bind(
-                                                this
-                                            )}
-                                            size={60}
-                                            typeahead={true}
-                                            tabIndex={tabIndex++}
-                                            hideImage
-                                        />
-                                    </div>
-
-                                    <div className="content-block transfer-input">
-                                        {/*  A M O U N T  */}
-                                        <AmountSelector
-                                            label="transfer.amount"
-                                            amount={amount}
-                                            onChange={this.onAmountChanged.bind(
-                                                this
-                                            )}
-                                            asset={
-                                                asset_types.length > 0 && asset
-                                                    ? asset.get("id")
-                                                    : asset_id
-                                                        ? asset_id
-                                                        : asset_types[0]
-                                            }
-                                            assets={asset_types}
-                                            display_balance={balance}
-                                            tabIndex={tabIndex++}
-                                        />
-                                    </div>
-                                    {/*  M E M O  */}
-                                    <div className="content-block transfer-input">
-                                        {memo && memo.length ? (
-                                            <label className="right-label">
-                                                {memo.length}
-                                            </label>
-                                        ) : null}
-                                        <Translate
-                                            className="left-label tooltip"
-                                            component="label"
-                                            content="transfer.memo"
-                                            data-place="top"
-                                            data-tip={counterpart.translate(
-                                                "tooltip.memo_tip"
-                                            )}
-                                        />
-                                        <textarea
-                                            style={{marginBottom: 0}}
-                                            rows="3"
-                                            value={memo}
-                                            tabIndex={tabIndex++}
-                                            onChange={this.onMemoChanged.bind(
-                                                this
-                                            )}
-                                        />
-                                        {/* warning */}
-                                        {this.state.propose ? (
-                                            <div
-                                                className="error-area"
-                                                style={{position: "absolute"}}
-                                            >
-                                                <Translate
-                                                    content="transfer.warn_name_unable_read_memo"
-                                                    name={this.state.from_name}
-                                                />
-                                            </div>
-                                        ) : null}
-                                    </div>
-
-                                    <div className="content-block transfer-input">
-                                        <div className="no-margin no-padding">
-                                            {/*  F E E  */}
-                                            <div
-                                                id="txFeeSelector"
-                                                className="small-12"
-                                            >
-                                                <AmountSelector
-                                                    label="transfer.fee"
-                                                    disabled={true}
-                                                    amount={fee}
-                                                    onChange={this.onFeeChanged.bind(
-                                                        this
-                                                    )}
-                                                    asset={
-                                                        fee_asset_types.length &&
-                                                        feeAmount
-                                                            ? feeAmount.asset_id
-                                                            : fee_asset_types.length ===
-                                                              1
-                                                                ? fee_asset_types[0]
-                                                                : fee_asset_id
-                                                                    ? fee_asset_id
-                                                                    : fee_asset_types[0]
-                                                    }
-                                                    assets={fee_asset_types}
-                                                    display_balance={
-                                                        balance_fee
-                                                    }
-                                                    tabIndex={tabIndex++}
-                                                    error={
-                                                        this.state
-                                                            .hasPoolBalance ===
-                                                        false
-                                                            ? "transfer.errors.insufficient"
-                                                            : null
-                                                    }
-                                                    scroll_length={2}
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    {propose ? (
-                                        <div className="content-block transfer-input">
-                                            <label className="left-label">
-                                                <Translate content="account.propose_from" />
-                                            </label>
-                                            <AccountSelect
-                                                account_names={AccountStore.getMyAccounts()}
-                                                onChange={this.onProposeAccount.bind(
-                                                    this
-                                                )}
-                                                tabIndex={tabIndex++}
-                                            />
-                                        </div>
-                                    ) : null}
-
-                                    <div className="content-block transfer-input">
-                                        <div className="no-margin no-padding">
-                                            <div
-                                                className="small-6"
-                                                style={{
-                                                    display: "inline-block",
-                                                    paddingRight: "10px"
-                                                }}
-                                            >
-                                                {propose ? (
-                                                    <button
-                                                        className={classnames(
-                                                            "button primary",
-                                                            {
-                                                                disabled: isSendNotValid
-                                                            }
-                                                        )}
-                                                        type="submit"
-                                                        value="Submit"
-                                                        onClick={
-                                                            !isSendNotValid
-                                                                ? this.onSubmit.bind(
-                                                                      this
-                                                                  )
-                                                                : null
-                                                        }
-                                                        tabIndex={tabIndex++}
-                                                    >
-                                                        <Translate
-                                                            component="span"
-                                                            content="propose"
-                                                        />
-                                                    </button>
-                                                ) : (
-                                                    <button
-                                                        className={classnames(
-                                                            "button primary",
-                                                            {
-                                                                disabled: isSendNotValid
-                                                            }
-                                                        )}
-                                                        type="submit"
-                                                        value="Submit"
-                                                        onClick={
-                                                            !isSendNotValid
-                                                                ? this.onSubmit.bind(
-                                                                      this
-                                                                  )
-                                                                : null
-                                                        }
-                                                        tabIndex={tabIndex++}
-                                                    >
-                                                        <Translate
-                                                            component="span"
-                                                            content="transfer.send"
-                                                        />
-                                                    </button>
-                                                )}
-                                            </div>
-                                            <div
-                                                className="small-6"
-                                                style={{
-                                                    display: "inline-block",
-                                                    paddingRight: "10px"
-                                                }}
-                                            >
-                                                <button
-                                                    className={classnames(
-                                                        "button hollow primary"
-                                                    )}
-                                                    type="submit"
-                                                    value="Cancel"
-                                                    tabIndex={tabIndex++}
-                                                    onClick={this.onClose.bind(
-                                                        this
-                                                    )}
-                                                >
-                                                    <Translate
-                                                        component="span"
-                                                        content="transfer.cancel"
-                                                    />
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        ) : null}
-                    </div>
-                </BaseModal>
+                />
             </div>
         );
     }
@@ -908,16 +635,19 @@ class SendModalConnectWrapper extends React.Component {
     }
 }
 
-SendModalConnectWrapper = connect(SendModalConnectWrapper, {
-    listenTo() {
-        return [AccountStore];
-    },
-    getProps() {
-        return {
-            currentAccount: AccountStore.getState().currentAccount,
-            passwordAccount: AccountStore.getState().passwordAccount
-        };
+SendModalConnectWrapper = connect(
+    SendModalConnectWrapper,
+    {
+        listenTo() {
+            return [AccountStore];
+        },
+        getProps() {
+            return {
+                currentAccount: AccountStore.getState().currentAccount,
+                passwordAccount: AccountStore.getState().passwordAccount
+            };
+        }
     }
-});
+);
 
 export default SendModalConnectWrapper;
